@@ -99,7 +99,7 @@ So far we have ignored multiplication
 
 ## More reading/watching
 
-- Videos one and two in the series [Essence of Linear Algebra(https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) by [3blue1brown](https://www.3blue1brown.com/)
+- Videos one and two in the series [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) by [3blue1brown](https://www.3blue1brown.com/)
 - Chapter 1 and section 2.4 of [Maths for machine learning](https://mml-book.github.io/)
 
 
