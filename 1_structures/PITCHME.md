@@ -1,4 +1,4 @@
-#  COMP1021  Maths for computer science {data-background-color=#6A246D}
+#  COMP1021  Maths for Computer Science {data-background-color=#6A246D}
 
 Linear algebra: mathematical structures
 
@@ -12,7 +12,7 @@ Linear algebra: mathematical structures
 - E.g. a list can be implemented with an array or a linked list
 - We can build structures with other structures e.g. queue from a list
 - Layers of abstraction e.g. assembly instruction, virtual machine instruction, prog lang instruction
-- At each level we fix the interface: can change details
+- At each level we fix the interface: can change details e.g. integers and real numbers on computer
 - Algebra = abstraction
 
 :::
@@ -46,7 +46,7 @@ Linear algebra: mathematical structures
 
 - The real numbers with +
 - The integers with +
-- Modulo arithmetic with +
+- [Symmetries](https://en.wikipedia.org/wiki/Symmetry_group)
 - Anything we can prove about groups in general we know about all these groups
 - E.g. identity is unique
 
@@ -61,7 +61,42 @@ Linear algebra: mathematical structures
 
 ---
 
+## Finite groups
+
+- Most the examples have had infinite sets (which one hasn't?)
+- Very common in CS to study finite sets e.g. bits
+- In general we can study $\mathbb{Z}_n$, modulo (clock) arithmetic
+
+---
+
+## Structures (equipped) with multiple operations
+
+So far we have ignored multiplication
+- A _field_ has two operations, usually written $+$ and $\cdot$
+- Call them 'addition' and 'multiplication'
+- In programming we are used to $+$ meaning different things
+
+--- 
+
+## Field axioms
+- Look at the [classic definition of a field](https://en.wikipedia.org/wiki/Field_(mathematics)#Classic_definition)
+- What terms are used that we haven't seen yet?
+- Is a field also a group?
+- Can every group be turned into a field?
+- Can a field be finite?
+
+---
+
+## Structures with multiple sets
+
+- Vectors are different from numbers (scalars)
+- We can add vectors
+- We can scale vectors (multiply)
+- We can add scalars
+- Can we multiply vectors?
+
+
 # Next time {data-background-color=#a5c8d0}
 
-Linear combinations of vectors
+Linear combinations of vectors, vector spaces
 
