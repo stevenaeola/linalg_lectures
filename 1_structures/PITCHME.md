@@ -65,7 +65,7 @@ Linear algebra: mathematical structures
 
 - Most the examples have had infinite sets (which one hasn't?)
 - Very common in CS to study finite sets e.g. bits
-- In general we can study $\mathbb{Z}_n$, modulo (clock) arithmetic
+- In general we can study ${\mathbb Z}_n$, modulo (clock) arithmetic
 
 ---
 
