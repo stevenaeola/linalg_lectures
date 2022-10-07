@@ -67,6 +67,8 @@ Linear algebra: mathematical structures
 - Very common in CS to study finite sets e.g. bits
 - In general we can study ${\mathbb Z}_n$, modulo (clock) arithmetic
 
+$A\subset\mathbb{R}_n$
+
 ---
 
 ## Structures (equipped) with multiple operations
