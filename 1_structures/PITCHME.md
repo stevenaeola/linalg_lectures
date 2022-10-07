@@ -18,6 +18,8 @@ Linear algebra: mathematical structures
 
 :::
 
+---
+
 ## What about maths
 
 ::: incremental
@@ -27,6 +29,8 @@ Linear algebra: mathematical structures
 - Axioms are the rules which define a mathematical structure
 :::
 
+---
+
 ## Groups
 ... have a set $G$, a _binary operation_ $\star$, and some axioms
 ::: incremental
@@ -35,6 +39,7 @@ Linear algebra: mathematical structures
 - $G$ has an _identity_ element $e$ i.e. $\forall a \in G.a \star e = e \star a = a$
 - $\star$ has an _inverse operator_ i.e. $\forall a \in G.\exists a^{-1}.a \star a^{-1}= a^{-1} \star a = e$
 
+---
 
 ## Examples of groups
 
@@ -42,6 +47,9 @@ Linear algebra: mathematical structures
 - The integers with +
 - Modulo arithmetic with +
 - Anything we can prove about groups in general we know about all these groups
+- E.g. identity is unique
+
+---
 
 ## Which of these are groups?
 
@@ -49,6 +57,8 @@ Linear algebra: mathematical structures
 - Odd numbers with addition
 - Rational numbers with multiplication
 - Strings with concatenation
+
+---
 
 # Next time {data-background-color=#a5c8d0}
 

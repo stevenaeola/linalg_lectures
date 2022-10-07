@@ -15,12 +15,14 @@ Linear algebra: mathematical structures
 - Algebra = abstraction
 
 
+
 ## What about maths
 
 - In programming we have data structures and operations e.g. string and concatentate
 - A mathematical structure typically defines set(s), operations and axioms
 - Programming operations are related to one another e.g. add an element to a list, increase length by 1
 - Axioms are the rules which define a mathematical structure
+
 
 ## Groups
 ... have a set $G$, a _binary operation_ $\star$, and some axioms
@@ -36,6 +38,8 @@ Linear algebra: mathematical structures
 - The integers with +
 - Modulo arithmetic with +
 - Anything we can prove about groups in general we know about all these groups
+- E.g. identity is unique
+
 
 ## Which of these are groups?
 
@@ -43,6 +47,7 @@ Linear algebra: mathematical structures
 - Odd numbers with addition
 - Rational numbers with multiplication
 - Strings with concatenation
+
 
 # Next time 
 
