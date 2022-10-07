@@ -29,7 +29,7 @@ Linear algebra: mathematical structures
 - $\star$ is _closed_ on $G$ i.e. $\star : G \times G \rightarrow G$
 - $\star$ is _associative_ i.e. for all $a,b,c$ in $G$, $a \star (b \star c) = (a \star b) \star c$
 - $G$ has an _identity_ element $e$ i.e. $\forall a \in G.a \star e = e \star a = a$
-- $\star$ has an _inverse operator_ i.e. $\forall a \in G.\exists a^ \star a = e$
+- $\star$ has an _inverse operator_ i.e. $\forall a \in G.\exists b \in G . a \star b = b \star a = e$
 
 
 ## Examples of groups
