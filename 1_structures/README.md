@@ -22,14 +22,14 @@ Linear algebra: mathematical structures
 - A mathematical structure typically defines set(s), operations and axioms
 - Programming operations are related to one another e.g. add an element to a list, increase length by 1
 - Axioms are the rules which define a mathematical structure
-- Now not just the elements are abstract ($x$), but also the operations
+- Now not just the elements are abstract $x$, but also the operations
 
 
 ## Groups
 ... have a set $G$, a _binary operation_ $\star$, and some axioms
 - $\star$ is _closed_ on $G$ i.e. $\star : G \times G \rightarrow G$
 - $\star$ is _associative_ i.e. for all $a,b,c$ in $G$, $a \star (b \star c) = (a \star b) \star c$
-- $G$ has an _identity_ element $e$ i.e. $\forall a \in G.a \star e = e \star a = a$
+- There exists an _identity_ element $e \in G$ i.e. $\forall a \in G.a \star e = e \star a = a$
 - $\star$ has an _inverse operator_ i.e. $\forall a \in G.\exists b \in G . a \star b = b \star a = e$
 
 
