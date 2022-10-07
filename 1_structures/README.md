@@ -7,21 +7,22 @@ Linear algebra: mathematical structures
 
 
 - Abstraction allows generalisation
-- E.g. 3D vectors can be used to model force, position, velocity, acceleration, momentum, spin
 - E.g. a list can be implemented with an array or a linked list
 - We can build structures with other structures e.g. queue from a list
-- Layers of abstraction e.g. NAND gate, CPU component, machine code instruction, virtual machine instruction, prog lang instruction, OS instruction
+- Layers of abstraction e.g. assembly instruction, virtual machine instruction, prog lang instruction
 - At each level we fix the interface: can change details
 - Algebra = abstraction
 
 
 
-## What about maths
+## What about maths?
 
+- E.g. 3D vectors can be used to model force, position, spin etc
 - In programming we have data structures and operations e.g. string and concatentate
 - A mathematical structure typically defines set(s), operations and axioms
 - Programming operations are related to one another e.g. add an element to a list, increase length by 1
 - Axioms are the rules which define a mathematical structure
+- Now not just the elements are abstract ($x$), but also the operations
 
 
 ## Groups
