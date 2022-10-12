@@ -6,38 +6,54 @@
 
 		<title>reveal.js</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="../reveal.js-master/dist/reset.css">
+		<link rel="stylesheet" href="../reveal.js-master/dist/reveal.css">
+		<link rel="stylesheet" href="../reveal.js-master/dist/theme/simple.css">
 
 		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<link rel="stylesheet" href="../reveal.js-master/plugin/highlight/monokai.css">
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
 
 <section data-markdown>
-	<textarea data-template>
-#  Linear combinations {data-background-color=#6A246D}
+<textarea data-template>
+# Linear combinations
 
 COMP1021 MCS: Linear algebra
 
 ---
 
-## Stuff
 
-\[x^2 = \log(2y+z)]</textarea>
+## Boom
+
+<!-- .slide: class="fragmented-lists" -->
+
+- Reveal things one by one
+- or two by two
+
+$x = -b \pm b^2 - 4ac$
+
+---
+
+<!-- .slide: class="fragmented-lists" -->
+
+## Fragmented List
+- foo
+- bar
+
+</textarea>
 </section>
 			</div>
 		</div>
 
-		<script src="dist/reveal.js"></script>
+		<script src="../reveal.js-master/dist/reveal.js"></script>
 
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script src="plugin/math/math.js"></script>
+		<script src="../reveal.js-master/plugin/notes/notes.js"></script>
+		<script src="../reveal.js-master/plugin/markdown/markdown.js"></script>
+		<script src="../reveal.js-master/plugin/highlight/highlight.js"></script>
+		<script src="../reveal.js-master/plugin/math/math.js"></script>
 
 		<script>
 			// More info about initialization & config:
@@ -49,6 +65,14 @@ COMP1021 MCS: Linear algebra
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
 			});
+
+			// from https://github.com/hakimel/reveal.js/issues/1211
+			
+			Reveal.addEventListener("ready", function addFragmentToLists() {
+  for (const listItem of document.querySelectorAll(".fragmented-lists li")) {
+    listItem.classList.add("fragment");
+  }
+});
 		</script>
 	</body>
 </html>

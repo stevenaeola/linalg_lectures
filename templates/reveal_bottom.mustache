@@ -1,0 +1,34 @@
+
+</textarea>
+</section>
+			</div>
+		</div>
+
+		<script src="{{{REVEAL_ROOT}}}dist/reveal.js"></script>
+
+		<script src="{{{REVEAL_ROOT}}}plugin/notes/notes.js"></script>
+		<script src="{{{REVEAL_ROOT}}}plugin/markdown/markdown.js"></script>
+		<script src="{{{REVEAL_ROOT}}}plugin/highlight/highlight.js"></script>
+		<script src="{{{REVEAL_ROOT}}}plugin/math/math.js"></script>
+
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+			});
+
+			// from https://github.com/hakimel/reveal.js/issues/1211
+			
+			Reveal.addEventListener("ready", function addFragmentToLists() {
+  for (const listItem of document.querySelectorAll(".fragmented-lists li")) {
+    listItem.classList.add("fragment");
+  }
+});
+		</script>
+	</body>
+</html>

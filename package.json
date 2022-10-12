@@ -1,0 +1,22 @@
+{
+  "name": "linalg_lectures",
+  "version": "1.0.0",
+  "description": "Linear algebra lectures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenaeola/linalg_lectures.git"
+  },
+  "author": "s.p.bradley@durham.ac.uk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenaeola/linalg_lectures/issues"
+  },
+  "homepage": "https://github.com/stevenaeola/linalg_lectures#readme",
+  "dependencies": {
+    "mustache": "^4.2.0"
+  }
+}
