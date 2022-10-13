@@ -13,7 +13,7 @@ mustache ../templates/reveal-config.json ../templates/reveal_bottom.mustache >> 
 
 #pandoc  -V theme=simple -t revealjs -s PITCHME.md -o PITCHME.html
 
-#git add .
-#git commit -m "Working on presentation $PATHEND"
-#git push -u origin main
+git add .
+git commit -m "Working on presentation $PATHEND"
+git push -u origin main
 

@@ -1,3 +1,6 @@
 {"REVEAL_ROOT": "../reveal.js-master/",
 "REVEAL_THEME": "simple",
-"APPEAR": "<!-- .slide: class=\"fragmented-lists\" -->"}
+"APPEAR": "<!-- .slide: class=\"fragmented-lists\" -->",
+"PURPLESLIDE": "<!-- .slide: data-background=\"#6A246D\" -->",
+"BLUESLIDE": "<!-- .slide: data-background=\"#a5c8d0\" -->"
+}

@@ -1,4 +1,10 @@
-# Linear combinations and vector spaces
+$\gdef\V#1$
+`$\gdef\Vthree#1#2#3$`
+`$\gdef\Vthrees#1#2#3$`
+
+
+
+## Vector spaces, linear combinations
 
 COMP1021 MCS: Linear algebra
 
@@ -14,12 +20,68 @@ Things in pink we will look at today
 ## Vector space
 
 - Is a mathematical structure: sets, operations, axioms
-- Has two sets: scalars and vectors
-- Vectors form a commutative group under addition
-- Scalars form a field (different kind of addition)
-- Scalar multiplication is compatible (like associativity)
-- Scalar multiplication is distributive over scalars and vectors
+- Has two sets: scalars $F$ and vectors $V$
+- $V$ forms a commutative group under addition
+- $F$ forms a field (different kind of addition)
+- Scalar multiplication $: F \times V \rightarrow V$
+
+
+## Notation conventions
+
+- Write vector variables in bold $\V \in V$
+- Alternatives are $\overline$
+- Write scalars plain $a,b \in F$
+- Vectors in $\R^3$ as column $\Vthree$ or row $(1,-2,0)$
 
 
 
 
+## Vector Space Axioms
+
+See [wikipedia](https://en.wikipedia.org/wiki/Vector_space#Definition_and_basic_properties)
+
+- $ a(b\V$
+- $1\V$
+- $a(\V$
+- $(a + b)\V$
+- [MML](https://mml-book.github.io/) 2.4.2 only talks about vectors over reals $\R$
+
+
+## Examples of vector spaces
+
+
+
+- $\R^3 = \R \times \R \times \R$ over $\R$ 
+  - vectors in $\R^3$, scalars in $\R$
+- $\Z_2^6$ over $\Z_2$
+- polynomials over $\R$
+- write down an example of scalar multiplication for each of these
+
+
+## Linear combinations
+
+Given vectors $\V$ and scalars $a_1, \ldots ,a_n$
+
+We can form a _linear combination_
+
+$$ a_1\V$$
+
+Alternatively
+
+$$ \sum_ $$
+
+
+
+## Span
+
+The set of all linear combinations of a set of vectors is called its _span_
+
+
+- _Describe (in words) the span of the set `$\$`_
+- N.B. If the field is infinite then the span will be infinite (for a non-empty set)
+
+
+
+## Spanning set
+
+A set of vectors $S$ is a _spanning set_ for a vector space $(F,V)$ if $span(S)=V$
