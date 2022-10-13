@@ -3,6 +3,8 @@ sed '/^---/ d' PITCHME.md | sed '/^@/ d' | sed '/^:::/ d' | sed 's/{.*}//' > REA
 
 PATHEND=$(pwd | rev | cut -d'/' -f-2 | rev)
 
+# install mustache with npm i -g mustache
+
 mustache ../templates/reveal-config.json ../templates/reveal_top.mustache > PITCHME.html
 mustache ../templates/reveal-config.json PITCHME.md >> PITCHME.html
 mustache ../templates/reveal-config.json ../templates/reveal_bottom.mustache >> PITCHME.html
