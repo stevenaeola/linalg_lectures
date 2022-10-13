@@ -7,12 +7,13 @@ graph TB
     op -- can have --> inverse:::previous
 
 
-    scalar -- belongs to --> field
+    scalar -- forms --> field
 
     scalar:::today -- can scale --> vector
 
 
     vector:::today -- has  --> add
+    vector:::today -- forms --> group
     vector -- pairs have --> dp[dot product]
     dp -- defines --> orthogonal
     vector -- can be --> normalised
