@@ -1,6 +1,6 @@
 Here are some math definitions
 
-`$$\def\R{\mathbb{R}}$$`
+`\(\def\R{\mathbb{R}}\)`
 
 
 ## Vector spaces, linear combinations
