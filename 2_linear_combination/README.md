@@ -3,11 +3,7 @@ $$
 \newcommand{\R}{\mathbb{R}}
 \def\Vthree#1#2#3{\begin{pmatrix} #1 \\ #2 \\  #3 \end{pmatrix} }
 \def\Vthrees#1#2#3{\Big(\begin{smallmatrix} #1 \\ #2 \\  #3 \end{smallmatrix} \Big)}
-$$$\gdef\V#1$
-`$\gdef\Vthree#1#2#3$`
-`$\gdef\Vthrees#1#2#3$`
-
-
+$$
 
 ## Vector spaces, linear combinations
 
