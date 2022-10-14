@@ -22,6 +22,8 @@ Things in pink we will look at today
 - Scalar multiplication $: F \times V \rightarrow V$
 
 
+{{{APPEAR}}}
+
 ## Notation conventions
 
 - Write vector variables in bold $\mathbf{u},\mathbf{v} \in V$
