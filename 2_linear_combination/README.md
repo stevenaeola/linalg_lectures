@@ -1,4 +1,4 @@
-
+{{{PURPLESLIDE}}}
 
 ## Vector spaces, linear combinations
 
@@ -11,7 +11,7 @@ See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/ed
 
 Things in pink we will look at today
 
-
+{{{APPEAR}}}
 
 ## Vector space
 
@@ -24,56 +24,56 @@ Things in pink we will look at today
 
 ## Notation conventions
 
-- Write vector variables in bold $\mathbf \in V$
-- Alternatives are $\overline$
+- Write vector variables in bold $\mathbf{u},\mathbf{v} \in V$
+- Alternatives are $\overline{v}, \underline{v}, \overrightarrow{v}$
 - Write scalars plain $a,b \in F$
-- Vectors in $\Bbb \Big)$` or row $(1,-2,0)$
+- Vectors in $\Bbb{R}^3$ as column `$\Big(\begin{smallmatrix} 1 \\ -2 \\0 \end{smallmatrix} \Big)$` or row $(1,-2,0)$
 
 
-
+{{{APPEAR}}}
 
 ## Vector Space Axioms
 
 See [wikipedia](https://en.wikipedia.org/wiki/Vector_space#Definition_and_basic_properties)
 
-- $ a(b\mathbf$
-- $1\mathbf$
-- $a(\mathbf$
-- $(a + b)\mathbf$
-- [MML](https://mml-book.github.io/) 2.4.2 only talks about vectors over reals $\Bbb$
+- $ a(b\mathbf{v}) = (ab)\mathbf{v}$
+- $1\mathbf{v} = \mathbf{v}$
+- $a(\mathbf{u} + \mathbf{v}) = a\mathbf{u} + a\mathbf{v}$
+- $(a + b)\mathbf{v} = a\mathbf{v} + b\mathbf{v}$
+- [MML](https://mml-book.github.io/) 2.4.2 only talks about vectors over reals $\Bbb{R}$
 
 
 ## Examples of vector spaces
 
+{{{APPEAR}}}
 
-
-- $\Bbb$ 
-  - vectors in $\Bbb$
+- $\Bbb{R}^3 = \Bbb{R} \times \Bbb{R} \times \Bbb{R}$ over $\Bbb{R}$ 
+  - vectors in $\Bbb{R}^3$, scalars in $\Bbb{R}$
 - $\Z_2^8$ over $\Z_2$
-- polynomials over $\Bbb$
+- polynomials over $\Bbb{R}$
 - write down an example of scalar multiplication for each of these
 
 
 ## Linear combinations
 
-Given vectors $\mathbf$ and scalars $a_1, \ldots ,a_n$
+Given vectors $\mathbf{v_1}, \ldots ,\mathbf{v_n}$ and scalars $a_1, \ldots ,a_n$
 
 We can form a _linear combination_
 
-$$ a_1\mathbf$$
+$$ a_1\mathbf{v_1} + \ldots + a_n\mathbf{v_n}$$
 
 Alternatively
 
-$$ \sum_ $$
+$$ \sum_{i=1}^n a_i\mathbf{v_i} $$
 
-
+{{{REVEAL}}}
 
 ## Span
 
 The set of all linear combinations of a set of vectors is called its _span_
 
 
-- Describe (in words) the span of the set `$\$`
+- Describe (in words) the span of the set `$\{(0,1,0),(0,1,2)\}$`
 - N.B. If the field is infinite then the span will be infinite (for a non-empty set)
 
 
