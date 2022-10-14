@@ -27,10 +27,10 @@ Things in pink we will look at today
 
 ## Notation conventions
 
-- Write vector variables in bold $\V \in V$
+- Write vector variables in bold $\mathbf \in V$
 - Alternatives are $\overline$
 - Write scalars plain $a,b \in F$
-- Vectors in $\R^3$ as column $\Vthree$ or row $(1,-2,0)$
+- Vectors in $\R^3$ as column $\begin$ or row $(1,-2,0)$
 
 
 
@@ -39,10 +39,10 @@ Things in pink we will look at today
 
 See [wikipedia](https://en.wikipedia.org/wiki/Vector_space#Definition_and_basic_properties)
 
-- $ a(b\V$
-- $1\V$
-- $a(\V$
-- $(a + b)\V$
+- $ a(b\mathbf$
+- $1\mathbf$
+- $a(\mathbf$
+- $(a + b)\mathbf$
 - [MML](https://mml-book.github.io/) 2.4.2 only talks about vectors over reals $\R$
 
 
@@ -52,18 +52,18 @@ See [wikipedia](https://en.wikipedia.org/wiki/Vector_space#Definition_and_basic_
 
 - $\R^3 = \R \times \R \times \R$ over $\R$ 
   - vectors in $\R^3$, scalars in $\R$
-- $\Z_2^6$ over $\Z_2$
+- $\Z_2^8$ over $\Z_2$
 - polynomials over $\R$
 - write down an example of scalar multiplication for each of these
 
 
 ## Linear combinations
 
-Given vectors $\V$ and scalars $a_1, \ldots ,a_n$
+Given vectors $\mathbf$ and scalars $a_1, \ldots ,a_n$
 
 We can form a _linear combination_
 
-$$ a_1\V$$
+$$ a_1\mathbf$$
 
 Alternatively
 
