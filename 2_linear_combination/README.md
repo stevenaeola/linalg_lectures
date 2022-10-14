@@ -1,5 +1,5 @@
 
-`$$\newcommand{\R}{\mathbb{R}}$$`
+$$\newcommand{\R}{\mathbb{R}}$$
 
 
 ## Vector spaces, linear combinations
