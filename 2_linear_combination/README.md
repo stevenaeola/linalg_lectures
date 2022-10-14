@@ -1,4 +1,3 @@
-`$$\def\R{\Bbb{R}}$$`
 
 
 ## Vector spaces, linear combinations
