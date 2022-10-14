@@ -56,7 +56,7 @@ See [wikipedia](https://en.wikipedia.org/wiki/Vector_space#Definition_and_basic_
 
 - $\Bbb{R}^3 = \Bbb{R} \times \Bbb{R} \times \Bbb{R}$ over $\Bbb{R}$ 
   - vectors in $\Bbb{R}^3$, scalars in $\Bbb{R}$
-- $\Z_2^8$ over $\Z_2$
+- $\Bbb{Z}_2^8$ over $\Bbb{Z}_2$
 - polynomials over $\Bbb{R}$
 - write down an example of scalar multiplication for each of these
 
