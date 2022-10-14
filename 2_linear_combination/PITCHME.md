@@ -151,5 +151,5 @@ $$ \sum_{i=1}^n a_i\mathbf{s_i} = \mathbf{0} \text{ and } \exists i.a_i \neq 0$$
 
 ---
 
-<<<BLUESLIDE>>>
+{{{BLUESLIDE}}}
 Next time: linear maps and matrices
