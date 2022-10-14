@@ -58,7 +58,7 @@ See [wikipedia](https://en.wikipedia.org/wiki/Vector_space#Definition_and_basic_
 
 ## Linear combinations
 
-Given vectors $\mathbf{v_1}, \ldots ,\mathbf{v_n}$ and scalars $a_1, \ldots ,a_n$
+__Defn__ Given vectors $\mathbf{v_1}, \ldots ,\mathbf{v_n}$ and scalars $a_1, \ldots ,a_n$
 
 We can form a _linear combination_
 
@@ -72,7 +72,7 @@ $$ \sum_{i=1}^n a_i\mathbf{v_i} $$
 
 ## Span
 
-The set of all linear combinations of a set of vectors is called its _span_
+__Defn__ The set of all linear combinations of a set of vectors is called its _span_
 
 
 - Describe (in words) the span of the set $\lbrace(0,1,0),(0,1,2)\rbrace$
@@ -82,4 +82,47 @@ The set of all linear combinations of a set of vectors is called its _span_
 
 ## Spanning set
 
-A set of vectors $S$ is a _spanning set_ for a vector space $(F,V)$ if $span(S)=V$
+__Defn__ A set of vectors $S$ is a _spanning set_ for a vector space $(F,V)$ if $span(S)=V$
+
+We can equivalently say $S$ spans $V$
+
+
+
+
+## Linear (in)dependence
+
+- __Defn__ A set of vectors $S=\lbraces_1,\ldots,s_n\rbrace$ is _linearly dependent_ if there exists a linear combination
+
+$$ \sum_{i=1}^n a_i\mathbf{s_i} = \mathbf{0}$$
+
+and $\exists i.a_i \neq 0$
+
+- In other words, we can write (at least) one of them as a linear combination of the others
+
+- __Defn__ A set of vectors is _linearly independent_ if it is not linearly dependent
+
+
+
+
+## Basis of a vector space
+
+- __Defn__ A subset $S$ of vector space $V$ is a _basis_ for $V$ if $S$ spans $V$ and $S$ is linearly independent
+
+- In other words $S$ is is the smallest spanning set we can find for $V$
+
+- The standard/canonical basis for $\Bbb{R}^3$ is $\lbrace (1,0,0), (0,1,0), (0,0,1) \rbrace$
+
+
+
+
+## Dimension of a vector space
+
+- __Defn__ The dimension of a vector space is the cardinality (size) of its basis
+
+- The dimension of $\Bbb{R}^3$ is 3
+
+- We can prove that dimension is _well defined_ i.e. it is the same however you calculate
+
+- I.e. all basis sets for a vector space are the same size
+
+- Dimension can be infinite. Can you think of an example?
