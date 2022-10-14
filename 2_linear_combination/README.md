@@ -1,4 +1,4 @@
-{{{PURPLESLIDE}}}
+<!-- .slide: data-background="#6A246D" -->
 
 ## Vector spaces, linear combinations
 
@@ -11,7 +11,7 @@ See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/ed
 
 Things in pink we will look at today
 
-{{{APPEAR}}}
+<!-- .slide: class="fragmented-lists" -->
 
 ## Vector space
 
@@ -22,7 +22,7 @@ Things in pink we will look at today
 - Scalar multiplication $: F \times V \rightarrow V$
 
 
-{{{APPEAR}}}
+<!-- .slide: class="fragmented-lists" -->
 
 ## Notation conventions
 
@@ -32,7 +32,7 @@ Things in pink we will look at today
 - Vectors in $\Bbb{R}^3$ as column $\Big(\begin{smallmatrix}1\\-2\\0\end{smallmatrix}\Big)$ or row $(1,-2,0)$
 
 
-{{{APPEAR}}}
+<!-- .slide: class="fragmented-lists" -->
 
 ## Vector Space Axioms
 
@@ -47,7 +47,7 @@ See [wikipedia](https://en.wikipedia.org/wiki/Vector_space#Definition_and_basic_
 
 ## Examples of vector spaces
 
-{{{APPEAR}}}
+<!-- .slide: class="fragmented-lists" -->
 
 - $\Bbb{R}^3 = \Bbb{R} \times \Bbb{R} \times \Bbb{R}$ over $\Bbb{R}$ 
   - vectors in $\Bbb{R}^3$, scalars in $\Bbb{R}$
@@ -68,7 +68,7 @@ Alternatively
 
 $$ \sum_{i=1}^n a_i\mathbf{v_i} $$
 
-{{{REVEAL}}}
+
 
 ## Span
 
