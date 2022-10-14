@@ -1,8 +1,6 @@
 #!/bin/bash
 
-#mustache ../templates/reveal-config.json ../templates/mathjax-macros.md > README.md
-
-sed '/^---/ d' PITCHME.md  > README.md
+mustache ../templates/reveal-config.json PITCHME.md | sed '/^---/ d' > README.md
 
 PATHEND=$(pwd | rev | cut -d'/' -f-2 | rev)
 
