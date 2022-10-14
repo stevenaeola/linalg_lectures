@@ -136,3 +136,7 @@ $$ \sum_{i=1}^n a_i\mathbf{s_i} = \mathbf{0} \text{ and } \exists i.a_i \neq 0$$
 - Vectors are linearly dependent if there is a non-zero linear combination of them that equals zero
 - A basis is a linearly independent spanning set
 - The dimension is the size of the basis
+
+
+<<<BLUESLIDE>>>
+Next time: linear maps and matrices
