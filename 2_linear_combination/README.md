@@ -76,7 +76,7 @@ $$ \sum_ $$
 The set of all linear combinations of a set of vectors is called its _span_
 
 
-- _Describe (in words) the span of the set `$\$`_
+- Describe (in words) the span of the set `$\$`
 - N.B. If the field is infinite then the span will be infinite (for a non-empty set)
 
 

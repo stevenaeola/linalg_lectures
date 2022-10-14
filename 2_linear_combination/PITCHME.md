@@ -80,7 +80,7 @@ $$ \sum_{i=1}^n a_i\mathbf{v_i} $$
 The set of all linear combinations of a set of vectors is called its _span_
 
 
-- _Describe (in words) the span of the set `$\{(0,1,0),(0,1,1)\}$`_
+- Describe (in words) the span of the set `$\{(0,1,0),(0,1,2)\}$`
 - N.B. If the field is infinite then the span will be infinite (for a non-empty set)
 
 
