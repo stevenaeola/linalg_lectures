@@ -28,7 +28,7 @@ Things in pink we will look at today
 - Write vector variables in bold $\mathbf \in V$
 - Alternatives are $\overline$
 - Write scalars plain $a,b \in F$
-- Vectors in $\R^3$ as column `$\Big(\begin \Big)$` or row $(1,-2,0)$
+- Vectors in $\Bbb \Big)$` or row $(1,-2,0)$
 
 
 
@@ -41,17 +41,17 @@ See [wikipedia](https://en.wikipedia.org/wiki/Vector_space#Definition_and_basic_
 - $1\mathbf$
 - $a(\mathbf$
 - $(a + b)\mathbf$
-- [MML](https://mml-book.github.io/) 2.4.2 only talks about vectors over reals $\R$
+- [MML](https://mml-book.github.io/) 2.4.2 only talks about vectors over reals $\Bbb$
 
 
 ## Examples of vector spaces
 
 
 
-- $\R^3 = \R \times \R \times \R$ over $\R$ 
-  - vectors in $\R^3$, scalars in $\R$
+- $\Bbb$ 
+  - vectors in $\Bbb$
 - $\Z_2^8$ over $\Z_2$
-- polynomials over $\R$
+- polynomials over $\Bbb$
 - write down an example of scalar multiplication for each of these
 
 
