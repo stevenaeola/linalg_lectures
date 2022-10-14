@@ -30,7 +30,7 @@ Things in pink we will look at today
 - Write vector variables in bold $\mathbf \in V$
 - Alternatives are $\overline$
 - Write scalars plain $a,b \in F$
-- Vectors in $\R^3$ as column $\begin$ or row $(1,-2,0)$
+- Vectors in $\R^3$ as column `$\begin$` or row $(1,-2,0)$
 
 
 
