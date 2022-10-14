@@ -137,3 +137,16 @@ and $\exists i.a_i \neq 0$
 - I.e. all basis sets for a vector space are the same size
 
 - Dimension can be infinite. Can you think of an example?
+
+---
+
+{{{REVEAL}}}
+
+## Summary
+
+- Vector space includes a group vectors and a field of scalars, with axioms governing scalar multiplication
+- We can form linear combinations of vectors through scaling and adding
+- All of the linear combinations of a set is called the span
+- Vectors are linearly dependent if there is a non-zero linear combination of them that equals zero
+- A basis is a linearly independent spanning set
+- The dimension is the size of the basis
