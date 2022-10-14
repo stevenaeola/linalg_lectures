@@ -38,7 +38,7 @@ Things in pink we will look at today
 
 See [wikipedia](https://en.wikipedia.org/wiki/Vector_space#Definition_and_basic_properties)
 
-- $ a(b\mathbf{v}) = (ab)\mathbf{v}$
+- $a(b\mathbf{v}) = (ab)\mathbf{v}$
 - $1\mathbf{v} = \mathbf{v}$
 - $a(\mathbf{u} + \mathbf{v}) = a\mathbf{u} + a\mathbf{v}$
 - $(a + b)\mathbf{v} = a\mathbf{v} + b\mathbf{v}$
