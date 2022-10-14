@@ -25,8 +25,8 @@ Things in pink we will look at today
 
 ## Notation conventions
 
-- Write vector variables in bold `$\mathbf \in V$`
-- Alternatives are `$\overline$`
+- Write vector variables in bold $\mathbf \in V$
+- Alternatives are $\overline$
 - Write scalars plain $a,b \in F$
 - Vectors in $\Bbb \Big)$` or row $(1,-2,0)$
 

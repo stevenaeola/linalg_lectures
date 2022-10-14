@@ -27,8 +27,8 @@ Things in pink we will look at today
 
 ## Notation conventions
 
-- Write vector variables in bold `$\mathbf{u},\mathbf{v} \in V$`
-- Alternatives are `$\overline{v}, \underline{v}, \overrightarrow{v}$`
+- Write vector variables in bold $\mathbf{u},\mathbf{v} \in V$
+- Alternatives are $\overline{v}, \underline{v}, \overrightarrow{v}$
 - Write scalars plain $a,b \in F$
 - Vectors in $\Bbb{R}^3$ as column `$\Big(\begin{smallmatrix} 1 \\ -2 \\0 \end{smallmatrix} \Big)$` or row $(1,-2,0)$
 
