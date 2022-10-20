@@ -9,16 +9,16 @@ graph TB
 
     scalar -- forms --> field
 
-    scalar:::today -- can scale --> vector
+    scalar:::previous -- can scale --> vector
 
 
-    vector:::today -- has  --> add
-    vector:::today -- forms --> group
+    vector:::previous -- has  --> add
+    vector:::previous -- forms --> group
     vector -- pairs have --> dp[dot product]
     dp -- defines --> orthogonal
     vector -- can be --> normalised
     normalised -- with --> norm
-    vs:::today -- has --> axioms
+    vs:::previous -- has --> axioms
 
     vs -- has set of --> scalar
     vs -- allows --> lincomb[linear combination]
@@ -28,9 +28,9 @@ graph TB
 
     vs -- has --> dimension
 
-    vectorset:::today -- contains --> vector
-    basis:::today -- spans --> vs
-    lincomb:::today -- of --> scalar
+    vectorset:::previous -- contains --> vector
+    basis:::previous -- spans --> vs
+    lincomb:::previous -- of --> scalar
     lincomb -- of --> vectorset
     field:::previous -- has --> axioms
     group:::previous -- has --> axioms
@@ -39,7 +39,7 @@ graph TB
     field -- has --> add
     field -- has  --> times
     basis -- is a --> vectorset
-    basis -- size defines --> dimension:::today
+    basis -- size defines --> dimension:::previous
     basis -- can be -->orthonormal
     orthonormal -- requires --> normalised
 
@@ -50,20 +50,20 @@ graph TB
     
 
 
-lm[linear map] -- acts on --> vector
-matrix -- represents --> lm
+lm[linear map]:::today -- acts on --> vector
+matrix:::today -- represents --> lm
 matrix -- has --> add
 matrix -- has --> times
 matrix -- has --> determinant
-determinant -- nonzero implies --> inverse
+determinant:::today -- nonzero implies --> inverse
 matrix -- can represent --> lineq[sytem of linear equations]
 ge[Gaussian elimination] -- acts on --> matrix
 ge -- reduces matrix to --> ref[row-echelon form]
 matrix -- can have --> ref
-matrix -- can be --> diagonal
+matrix -- can be --> diagonal:::today
 
 vectorset[set of vectors]
-vectorset -- can have --> indep[linear independence]:::today
+vectorset -- can have --> indep[linear independence]:::previous
 basis -- has --> indep
 lm -- has --> rank
 lm -- has --> kernel
@@ -72,5 +72,5 @@ times[multiplication]:::previous -- is a --> op
 ge -- can find --> inverse
 axioms:::previous -- govern --> op
 
-classDef today fill:#f9f,stroke:#000,stroke-width:4px;
+classDef previous fill:#f9f,stroke:#000,stroke-width:4px;
 classDef previous fill:#fff,stroke:#000,stroke-width:4px;
