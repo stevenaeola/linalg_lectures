@@ -180,7 +180,9 @@ Check your answer example 2.3 from [MML book](https://mml-book.github.io/book/mm
 
 
 <!-- .slide: data-background="#a5c8d0" -->
-Further explanation
+
+## More
+
 - [3B1B Chapter 3: Linear transformations and matrices](https://www.youtube.com/watch?v=kYB8IZa5AuE&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=3) 
 - [3B1B Chapter 4: Matrix multiplication as composition](https://www.youtube.com/watch?v=XkY2DOUCWMU&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=4)
 - [MML book](https://mml-book.github.io/book/mml-book.pdf) section 2.2
