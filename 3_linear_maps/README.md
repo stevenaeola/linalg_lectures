@@ -69,9 +69,8 @@ $$f(a \mathbf{v}) = a f(\mathbf{v}) $$
 
 <!-- .slide: class="fragmented-lists" -->
 
-## Images of basis vectors
+## Matrix of images of basis vectors
 
-- Write down the images of the basis vectors as columns
 - For example, rotation by 90 degrees anti-clockwise in $\Bbb{R}^2$
   - Q: What are the images of the canonical basis vectors $\mathbf{e}_1 (1,0)$ and $\mathbf{e}_2 (0,1)$?
   - A: $(0,1)$ and $(-1,0)$ or $\mathbf{e}_2$ and $-1\mathbf{e}_1$
