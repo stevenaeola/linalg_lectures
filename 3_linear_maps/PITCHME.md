@@ -152,12 +152,13 @@ What are the dimensions of the domain and codomain?
 
 What is the matrix representation of the identity map?
 
-All basis vectors map to themselves
+All basis vectors map to themselves via the identity matrix $I$
 
-`$$\small{ A = \begin{pmatrix} 1 & 0 & \ldots & 0 \\ 0 & 1 & 0\\
+`$$\small{ I = \begin{pmatrix} 1 & 0 & \ldots & 0 \\ 0 & 1 & 0\\
 \vdots & \vdots & \ddots & \vdots \\0 & 0 & \ldots & 1
 \end{pmatrix}}$$`
 
+$I$ is a _diagonal_ matrix: $i \neq j \implies a_{ij}=0$
 ---
 
 {{{APPEAR}}}
