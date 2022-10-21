@@ -111,6 +111,7 @@ $$f(\mathbf{e_j}) = \sum_{i=1}^m a_{ij} \mathbf{e}_i$$
 
 
 The image of the vector $A\mathbf{x} = A(x_1,\ldots,x_n)$ is
+
 `$$\begin{aligned}
 f(\sum_{j=1}^n x_j\mathbf{e}_j) &= \sum_{j=1}^n x_j f(\mathbf{e}_j) \\
 &= \sum_{j=1}^n x_j \sum_{i=1}^m a_{ij} \mathbf{e}_i \\
