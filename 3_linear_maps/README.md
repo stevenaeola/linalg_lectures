@@ -186,4 +186,4 @@ Further explanation
 
 Next time: Determinants and inverses
 
-Practicals: 
+Practicals: Span, independence, basis, linear maps, matrices
