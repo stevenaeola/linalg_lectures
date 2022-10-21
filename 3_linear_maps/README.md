@@ -126,7 +126,10 @@ So the ith component of the image of $\mathbf{x}$ is $$\sum_{j=1}^m a_{ij} x_j$$
 ## Example
 
 `$$\begin{pmatrix} 1 & -2 & 3 \\ -4 & 5 & -6 \end{pmatrix}
-\begin{pmatrix} 9 \\ 8 \\7 \end{pmatrix}$$`
+\begin{pmatrix} 9 \\ 8 \\7 \end{pmatrix} = 
+\begin{pmatrix} 1 \times 9 -2 \times 8 + 3 \times 7 \\ -4 \times 9 +5 \times 8 -6 \times 7\end{pmatrix} =
+\begin{pmatrix} 14 \\ -38\end{pmatrix}
+$$`
 
 What are the dimensions of the domain and codomain?
 
