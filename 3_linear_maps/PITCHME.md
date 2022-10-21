@@ -160,7 +160,7 @@ All basis vectors map to themselves
 
 ---
 
-{{{REVEAL}}}
+{{{APPEAR}}}
 
 ## Combining linear maps
 

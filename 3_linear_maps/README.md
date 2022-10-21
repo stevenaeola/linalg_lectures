@@ -145,7 +145,7 @@ All basis vectors map to themselves
 \end{pmatrix}}$$`
 
 
-
+<!-- .slide: class="fragmented-lists" -->
 
 ## Combining linear maps
 
