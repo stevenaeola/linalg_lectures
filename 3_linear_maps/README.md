@@ -101,9 +101,9 @@ What happens when we rotate the vector $(2,3)$?
 
 Write basis vector images columns under f as a matrix
 
-`$$ A = \begin{pmatrix} a_{11} & a_{21} & \ldots & a_{1n}\\a_{21} & a_{21} & \ldots & a_{2n}\\
+`$$\small{ A = \begin{pmatrix} a_{11} & a_{21} & \ldots & a_{1n}\\a_{21} & a_{21} & \ldots & a_{2n}\\
 \vdots & \vdots & \ddots & \vdots \\a_{m1} & a_{m2} & \ldots & a_{mn}
-\end{pmatrix}$$`
+\end{pmatrix}}$$`
 
 $a_{ij}$ is ith component of f-image of jth basis vector
 
