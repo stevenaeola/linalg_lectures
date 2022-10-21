@@ -146,6 +146,7 @@ All basis vectors map to themselves
 
 
 
+
 ## Combining linear maps
 
 - Suppose we have two linear maps $f$ and $g$ represented by matrices $A$ and $B$
