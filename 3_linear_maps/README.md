@@ -67,15 +67,16 @@ $$f(a \mathbf{v}) = a f(\mathbf{v}) $$
 - So a _linear map is characterised by its action on basis vectors_
 
 
+<!-- .slide: class="fragmented-lists" -->
+
 ## Images of basis vectors
 
-- Write down the images (function values) of the basis vectors as columns
+- Write down the images of the basis vectors as columns
 - For example, rotation by 90 degrees anti-clockwise in $\Bbb{R}^2$
   - Q: What are the images of the canonical basis vectors $\mathbf{e}_1 (1,0)$ and $\mathbf{e}_2 (0,1)$?
   - A: $(0,1)$ and $(-1,0)$ or $\mathbf{e}_2$ and $-1\mathbf{e}_1$
   - Turn these into column vectors to get the representation
-
-`$$\begin{pmatrix}0&-1 \\1 & 0 \end{pmatrix}$$`
+  - `$$\begin{pmatrix}0&-1 \\1 & 0 \end{pmatrix}$$`
 
 
 ## You try
