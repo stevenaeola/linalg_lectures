@@ -71,11 +71,12 @@ $$f(a \mathbf{v}) = a f(\mathbf{v}) $$
 
 ## Images of basis vectors
 
-- For example, rotation by 90 degrees anti-clockwise in $\Bbb{R}^2$
-  - Q: What are the images of the canonical basis vectors $\mathbf{e}_1 (1,0)$ and $\mathbf{e}_2 (0,1)$?
-  - A: $(0,1)$ and $(-1,0)$ or $\mathbf{e}_2$ and $-1\mathbf{e}_1$
-  - Turn these into column vectors to get the  matrix representation
-  - `$$\begin{pmatrix}0&-1 \\1 & 0 \end{pmatrix}$$`
+For example, rotation by 90 degrees anti-clockwise in $\Bbb{R}^2$
+- Q: What are the images of the canonical basis vectors $\mathbf{e}_1 (1,0)$ and $\mathbf{e}_2 (0,1)$?
+- A: $(0,1)$ and $(-1,0)$ or $\mathbf{e}_2$ and $-1\mathbf{e}_1$
+- Turn these into column vectors to get the  matrix representation
+
+`$$\begin{pmatrix}0&-1 \\1 & 0 \end{pmatrix}$$`
 
 
 ## You try
@@ -124,6 +125,9 @@ So the ith component of the image of $\mathbf{x}$ is $\sum_{j=1}^m a_{ij} x_j$
 `$$\begin{pmatrix} 1 & -2 & 3 \\ -4 & 5 & -6 \end{pmatrix}
 \begin{pmatrix} 9 \\ 8 \\7 \end{pmatrix}$$`
 
+Matrix multiplication
+
+Identity
 
 <!-- .slide: data-background="#a5c8d0" -->
 Next time: Determinants and inverses
