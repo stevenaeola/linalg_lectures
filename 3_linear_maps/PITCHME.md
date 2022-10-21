@@ -19,7 +19,7 @@ Things in pink we will look at today
 
 - Remember: a set of vectors is a __basis__ for the vector space if it __spans__ the whole space and is __linearly independent__
 
-- __Thm__ For a vector space $V$ the representation of any $v \in V$ as a linear combination of a given basis $S = \lbrace s_1,\ldots,s_n \rbrace$ is unique
+- __Thm__ For a vector space $V$ the representation of any $\mathbf{v} \in V$ as a linear combination of a given basis $S = \lbrace \mathbf{s}_1,\ldots,\mathbf{s}_n \rbrace$ is unique
 - __Proof__ (sketch). Suppose not. Then subtract the two representations. This violates one of the properties of a basis. So we have a contradiction.
 
 ---
