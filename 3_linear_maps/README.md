@@ -61,9 +61,7 @@ $$f(a \mathbf{v}) = a f(\mathbf{v}) $$
 
 ## Linear maps and basis vectors
 
-- Every vector can be represented as a linear combination of basis vectors $S$
-  - $\forall v \in V.\exists a_1,\ldots,a_n \text{ s.t. } v = \sum_{i=1}^n a_i s_i$
-  - (finite dimensional case)
+- Every vector can be represented as a linear combination of basis vectors $s_i \in S$
 - If we apply a linear map $f$ then
 $$f(v) = f(\sum_{i=1}^n a_i s_i) = \sum_{i=1}^n a_i f(s_i)$$
 - So a _linear map is characterised by its action on basis vectors_
