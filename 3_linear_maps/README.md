@@ -163,7 +163,7 @@ Given matrices $A \in \Bbb{R}^{m \times n}$ and $B \in \Bbb{R}^{n \times k}$
 
 The elements $c_{ij}$ of the product $C = AB \in \Bbb{R}^{m \times k}$ are
 
-$$cij = \sum_{l=1}^{n} a_{il}b{lj}$$
+$$cij = \sum_{l=1}^{n} a_{il}b_{lj}$$
 
 For $1 \leq i \leq m, 1 \leq j \leq k$
 
