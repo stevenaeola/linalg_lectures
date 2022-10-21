@@ -31,7 +31,7 @@ Things in pink we will look at today
 - Write scalars plain $a,b \in F$
 - Vectors in $\Bbb{R}^3$ as row $(1,-2,0)$ or column 
 
-`$$\Big(\begin{smallmatrix}1\\-2\\0\end{smallmatrix}\Big)$$` 
+`$\begin{pmatrix}1\\-2\\0\end{pmatrix})$` 
 
 
 <!-- .slide: class="fragmented-lists" -->
