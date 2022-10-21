@@ -138,11 +138,64 @@ So the ith component of the image of $\mathbf{x}$ is $$\sum_{j=1}^m a_{ij} x_j$$
 
 `$$\begin{pmatrix} 1 & -2 & 3 \\ -4 & 5 & -6 \end{pmatrix}
 \begin{pmatrix} 9 \\ 8 \\7 \end{pmatrix}$$`
+
+What are the dimensions of the domain and codomain?
+
 ---
 
-Matrix multiplication
+## Identity matrix
 
-Identity
+What is the matrix representation of the identity map?
+
+All basis vectors map to themselves
+
+`$$\small{ A = \begin{pmatrix} 1 & 0 & \ldots & 0 \\ 0 & 1 & 0\\
+\vdots & \vdots & \ddots & \vdots \\0 & 0 & \ldots & 1
+\end{pmatrix}}$$`
+
+---
+{{{REVEAL}}}
+
+## Combining linear maps
+
+- Suppose we have two linear maps $f$ and $g$ represented by matrices $A$ and $B$
+- What is the matrix for $(f \circle g)(\mathbf{v}) = f(g(\mathbf{v}))$?
+- Need to find images of basis vectors
+- $B$ columns contains images of basis vectors under $g$
+- So apply $A$ to columns of $B$ in turn and write as columns
+- This gives the matrix of the map $f \circle g$ which we write $AB$
+
+---
+
+## Matrix multiplication
+
+Given matrices $A \in \Bbb{R}^{m \times n}$ and $B \in \Bbb{R}^{n \times k}$
+
+The elements $c_{ij}$ of the product $C = AB \in \Bbb{R}^{m \times k}$ are
+
+$$cij = \sum_{l=1}^{n} a_{il}b{lj}$$
+
+For $1 \leq i \leq m, 1 \leq j \leq k$
+
+This also formalises our definition of multiplying a matrix by a vector $k=1$
+
+---
+
+## Example
+
+`$$\begin{pmatrix} 1 & 2 & 3 \\ 3 & 2 & 1 \end{pmatrix}
+\begin{pmatrix} 0 & 2 \\ 1 & -1 \\ 0 & 1 \end{pmatrix}$$`
+
+Check your answer example 2.3 from [MML book](https://mml-book.github.io/book/mml-book.pdf)
+
+---
 
 {{{BLUESLIDE}}}
+Further explanation
+- [3B1B Chapter 3: Linear transformations and matrices](https://www.youtube.com/watch?v=kYB8IZa5AuE&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=3) 
+- [3B1b Chapter 4: Matrix multiplication as composition](https://www.youtube.com/watch?v=XkY2DOUCWMU&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=4)
+- [MML book](https://mml-book.github.io/book/mml-book.pdf) section 2.2
+
 Next time: Determinants and inverses
+
+Practicals: 
