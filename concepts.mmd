@@ -4,7 +4,7 @@ graph TB
     op -- can have --> associativity:::previous
     op -- can have --> commutativity:::previous
     op -- can have --> distributivity:::previous
-    op -- can have --> inverse:::previous
+    op -- can have --> inverse:::today
 
 
     scalar -- forms --> field
@@ -50,17 +50,17 @@ graph TB
     
 
 
-lm[linear map]:::today -- acts on --> vector
-matrix:::today -- represents --> lm
+lm[linear map]:::previous -- acts on --> vector
+matrix:::previous -- represents --> lm
 matrix -- has --> add
 matrix -- has --> times
 matrix -- has --> determinant
-determinant -- nonzero implies --> inverse
+determinant:::today -- nonzero implies --> inverse
 matrix -- can represent --> lineq[sytem of linear equations]
 ge[Gaussian elimination] -- acts on --> matrix
 ge -- reduces matrix to --> ref[row-echelon form]
 matrix -- can have --> ref
-matrix -- can be --> diagonal:::today
+matrix -- can be --> diagonal:::previous
 
 vectorset[set of vectors]
 vectorset -- can have --> indep[linear independence]:::previous
