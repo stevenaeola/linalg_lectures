@@ -99,7 +99,6 @@ Etc: applies to all columns
 
 ## det() definition: 2 alternating
 
-Alternating property: 
 
 If $\mathbf{c}_i = \mathbf{c}_j$ for some $i \neq j$ then $det(A)=0$
 
