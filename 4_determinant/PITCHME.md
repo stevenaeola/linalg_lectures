@@ -63,9 +63,9 @@ The determinant is the signed area of the image of the unit square
 
 ## 2x2 examples
 
-`$$\begin{vmatrix}1 & -2 \\ 3 & -4\end{vmatrix} = (1.-4) - (-2.3) = 2$$`
+`$$\begin{vmatrix}1 & -2 \\ 3 & -4\end{vmatrix} = 1.(-4) - (-2).3 = 2$$`
 
-`$$\begin{vmatrix}1 & -2 \\ -2 & 4\end{vmatrix} = (1.4) - (-2.-2) = 0$$`
+`$$\begin{vmatrix}1 & -2 \\ -2 & 4\end{vmatrix} = 1.4 - (-2).(-2) = 0$$`
 
 The determinant is 0 when the columns are linearly dependent
 
