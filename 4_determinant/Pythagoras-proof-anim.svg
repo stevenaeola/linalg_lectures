@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="700" height="400">
+	<title>Pythagorean Theorem &#x2014; Pythagoras' Proof, Animated</title>
+     	<g>
+		<polygon points="0,0 0,302 302,302 302,0" />
+		<g transform="translate(1,1)">
+			<polygon points="0,0 0,300 300,300 300,0" style="fill:white" />
+			<g>
+				<polygon points="0,0 0,200 100,0" style="fill:#a6cee3" />
+				<text style="font-size:20px" transform="translate(36,20)">&#x1D44E;</text>
+				<text style="font-size:20px" transform="translate(6,80)">&#x1D44F;</text>
+				<text style="font-size:20px" transform="translate(61,100)">&#x1D450;</text>
+			</g>
+			<g>
+				<polygon points="0,200 0,300 200,300" style="fill:#1f78b4" />
+				<text style="font-size:20px" transform="translate(6,261)">&#x1D44E;</text>
+				<text style="font-size:20px" transform="translate(71,291)">&#x1D44F;</text>
+				<text style="font-size:20px" transform="translate(91,241)">&#x1D450;</text>
+			</g>
+			<g>
+				<polygon points="200,300 300,300 300,100" style="fill:#33a02c" />
+				<text style="font-size:20px" transform="translate(254,291)">&#x1D44E;</text>
+				<text style="font-size:20px" transform="translate(281,220)">&#x1D44F;</text>
+				<text style="font-size:20px" transform="translate(229,210)">&#x1D450;</text>
+			</g>
+			<g>
+				<polygon points="300,100 300,0 100,0" style="fill:#b2df8a" />
+				<text style="font-size:20px" transform="translate(281,39)">&#x1D44E;</text>
+				<text style="font-size:20px" transform="translate(229,20)">&#x1D44F;</text>
+				<text style="font-size:20px" transform="translate(209,79)">&#x1D450;</text>
+			</g>
+			<text style="font-size:40px" transform="translate(140,160)">
+				&#x1D450;&#x00B2;
+			</text>
+		</g>
+	</g>
+
+     	<g transform="translate(350,0)">
+		<polygon points="0,0 0,302 302,302 302,0" />
+		<g transform="translate(1,1)">
+			<polygon points="0,0 0,300 300,300 300,0" style="fill:white" />
+			<g>
+				<polygon points="0,0 0,200 100,0" style="fill:#a6cee3" />
+				<text style="font-size:20px" transform="translate(36,20)">&#x1D44E;</text>
+				<text style="font-size:20px" transform="translate(6,80)">&#x1D44F;</text>
+				<text style="font-size:20px" transform="translate(61,100)">&#x1D450;</text>
+			</g>
+			<g transform="translate(100,0)">
+				<animateTransform attributeName="transform" type="translate" values="0,0;0,0;100,0;100,0" keyTimes="0.0;0.4;0.8;1" dur="5s" fill="freeze" />
+				<polygon points="0,200 0,300 200,300" style="fill:#1f78b4" />
+				<text style="font-size:20px" transform="translate(6,261)">&#x1D44E;</text>
+				<text style="font-size:20px" transform="translate(71,291)">&#x1D44F;</text>
+				<text style="font-size:20px" transform="translate(91,241)">&#x1D450;</text>
+			</g>
+			<g transform="translate(-200,-100)">
+				<animateTransform attributeName="transform" type="translate" values="0,0;-200,-100;-200,-100" keyTimes="0.0;0.4;1" dur="5s" fill="freeze" />
+				<polygon points="200,300 300,300 300,100" style="fill:#33a02c" />
+				<text style="font-size:20px" transform="translate(254,291)">&#x1D44E;</text>
+				<text style="font-size:20px" transform="translate(281,220)">&#x1D44F;</text>
+				<text style="font-size:20px" transform="translate(229,210)">&#x1D450;</text>
+			</g>
+			<g transform="translate(0,200)">
+				<animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,200;0,200" keyTimes="0.0;0.4;0.8;1" dur="5s" fill="freeze" />
+				<polygon points="300,100 300,0 100,0" style="fill:#b2df8a" />
+				<text style="font-size:20px" transform="translate(281,39)">&#x1D44E;</text>
+				<text style="font-size:20px" transform="translate(229,20)">&#x1D44F;</text>
+				<text style="font-size:20px" transform="translate(209,79)">&#x1D450;</text>
+			</g>
+			<text style="font-size:40px" opacity="1" transform="translate(32,263)">
+				<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.8;1.0" dur="5s" fill="freeze" />
+				&#x1D44E;&#x00B2;
+			</text>
+			<text style="font-size:40px" opacity="1" transform="translate(185,110)">
+				<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.8;1.0" dur="5s" fill="freeze" />
+				&#x1D44F;&#x00B2;
+			</text>
+		</g>
+	</g>
+
+	<text style="font-size:50px" transform="translate(200,360)">
+		&#x1D450;&#x00B2; = &#x1D44E;&#x00B2; + &#x1D44F;&#x00B2;
+	</text>
+</svg>
