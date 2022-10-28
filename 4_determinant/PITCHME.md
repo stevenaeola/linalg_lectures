@@ -83,7 +83,7 @@ $det(C) = det(\mathbf{c}_1,\ldots,\mathbf{c}_n)$
 
 ---
 
-## Determinant definition: 1 linearity
+## det() definition: 1 linearity
 
 Linearity in each column so that 
 
@@ -97,7 +97,7 @@ Etc: applies to all columns
 
 ---
 
-## Determinant definition: 2 alternating
+## det() definition: 2 alternating
 
 Alternating property: 
 
@@ -105,7 +105,7 @@ If $\mathbf{c}_i = \mathbf{c}_j$ for some $i \neq j$ then $det(A)=0$
 
 ---
 
-## Determinant definition: 3 identity
+## det() definition: 3 identity
 
 The determinant of the identity matrix $I_n$ is 1
 
