@@ -7,7 +7,7 @@ COMP1021 MCS: Linear algebra
 
 ## Previously
 
-See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/48c702f28d3b09d34a072da7d57a5fbd4e7f5cf0/concepts.mmd)
+See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/7a1d5d947e3cea399d4b79471b43754e99c0f555/concepts.mmd)
 
 Things in pink we will look at today
 
@@ -38,41 +38,78 @@ Using a graphical argument, find the area covered by the quadrilateral whose cor
 - $f((0,1))$
 
 
-3b1b video
+## What is a determinant?
+
+See [3blue1brown video on determinants](https://www.youtube.com/watch?v=Ip3X9LOh2dk&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=6)
 
 
 ## Determinant of a 2x2 matrix
 
-Definition and example
+The determinant of a matrix $A$ is written as $det(A)$ or $|A|$
 
-Relationship to area
+For a 2x2 matrix 
 
+$$det(\begin{pmatrix}a & b \\ c & d\end{pmatrix}) = \begin{vmatrix}a & b \\ c & d\end{vmatrix} = ad-bc$$
 
-## Determinant of a linear map
-
-Different (equivalent) definitions. 
-
-- linear in columns
-- alternating (distinct columns = => det0)
-- identity
-
-Assume uniqueness/well-defined (could prove)
+The determinant is the signed area of the image of the unit square
 
 
-## Rationale
+## 2x2 examples
 
-- volumes of hypercuboids
-- adding blocks
+$$\begin{vmatrix}1 & -2 \\ 3 & -4\end{vmatrix} = 1.-4 - -2.3 = 2$$
+
+$$\begin{vmatrix}1 & -2 \\ -2 & 4\end{vmatrix} = 1.4 - -2.-2 = 0$$
+
+N.B. The determinant is 0 when the columns are linearly dependent
+
+## Determinant of a $n \times n$ matrix
+
+(Not defined for non-square matrices)
+
+We define the determinant in terms of its properties
+
+If a matrix $A$ is made out of columns vectors $\mathbf{c}_1,\ldots,\mathbf{c}_n$, we can define the function on the columns
+
+$det(\mathbf{c}_1,\ldots,\mathbf{c}_n)$ with 
+
+- linearity in each column so that 
+  - $det(\mathbf{c}_1,\ldots,\mathbf{c}_n) = a.det(\mathbf{c}_1,\ldots,\mathbf{c}_n)$ 
+  - $det(\mathbf{c}_1,\ldots,a\mathbf{c}_n) = a.det(\mathbf{c}_1,\ldots,\mathbf{c}_n)$
+  - $det(\mathbf{c}_1 + \mathbf{c'}_1,\ldots,\mathbf{c}_n) = det(\mathbf{c}_1,\ldots,\mathbf{c}_n) + $det(\mathbf{c'}_1,\ldots,\mathbf{c}_n)$
+
+- alternating property: if $\mathbf{c}_i = \mathbf{c}_j$ for some $i \neq j$ then $det(A)=0$
+- the determinant of the identity matrix $I_n$ is 1
+
+
+## Rationale based on area/volume
+
+- Doubling one of the vectors doubles the area/volume
+- We can add together the area/volumes of rectangles/cuboids/hypercuboids
+- If the image of two vectors is the same then the image space has collapsed e.g. from 3D to 2D
+- The unit square/cuboid/hypercuboid has area/volume 1
+
+
 
 
 ## Properties of determinants
 
-swapping columns gives negative
-0 column => 0
-linearly dependent columns => 0 (proof?)
+- If a matrix $B$ is like $A$ but with two columns swapped then $det(B) = - det(A)$
+
+- If a matrix $A$ has a column made up of zeros then $det(A)=0$
+
+- If a matrix $A$ has columns that are linearly dependent then $det(A)=0$
+
 
 
 ## Determinant of diagonal matrix
+
+`$$\begin{align}\begin{vmatrix}2&0&0\\0&4&0\\0&0&-3\end{vmatrix} &= 
+2.\begin{vmatrix}1&0&0\\0&4&0\\0&0&-3\end{vmatrix} \\
+&= 2.4.\begin{vmatrix}1&0&0\\0&1&0\\0&0&-3\end{vmatrix} \\
+&= 2.4.-3\begin{vmatrix}1&0&0\\0&1&0\\0&0&1\end{vmatrix} \\
+= -24
+\end{align}
+$$`
 
 
 ## Alternative derivation of 2x2 determinant
@@ -106,6 +143,11 @@ Definition and example
 Equal
 
 Can expand by any row or any column
+
+
+## Combining matrices
+
+det(AB) = det(A).det(B)
 
 ## Uses of determinants
 
