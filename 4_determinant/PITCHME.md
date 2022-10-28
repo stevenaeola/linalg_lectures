@@ -169,10 +169,9 @@ Want more detail: see Strang text book or [youtube 18](https://www.youtube.com/w
 
 ## Determinant of nxn
 
-- You can keep on expanding out indefinitely
+Expanding out indefinitely to matrices whose columns are _permutations_ of the identity
 
-- We end up with matrices whose columns are _permutations_ of the identity
-- Based on this we can use the _Laplace expansion_ to find the determinant
+Based on this we can use the _Laplace expansion_ 
 
 `$$det(C) = \sum_{j=1}^n (-1)^{i+j}c_{ij}M_{ij}$$`
 
