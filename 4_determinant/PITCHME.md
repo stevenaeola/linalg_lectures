@@ -192,7 +192,7 @@ Find the determinant
 \end{align}
 $$`
 
-Check your answer in MML example 4.3
+Check your answer in [MML](https://mml-book.github.io/book/) example 4.3
 
 ---
 
