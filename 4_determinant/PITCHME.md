@@ -86,9 +86,12 @@ $det(C) = det(\mathbf{c}_1,\ldots,\mathbf{c}_n)$
 ## Determinant definition: 1 linearity
 
 Linearity in each column so that 
-  - $det(a\mathbf{c}_1,\ldots,\mathbf{c}_n) = a.det(\mathbf{c}_1,\ldots,\mathbf{c}_n)$ 
-  - $det(\mathbf{c}_1,\ldots,a\mathbf{c}_n) = a.det(\mathbf{c}_1,\ldots,\mathbf{c}_n)$
-  - $det(\mathbf{c}_1 + \mathbf{c'}_1,\ldots,\mathbf{c}_n) = det(\mathbf{c}_1,\ldots,\mathbf{c}_n) + $det(\mathbf{c'}_1,\ldots,\mathbf{c}_n)$
+
+`$$det(a\mathbf{c}_1,\ldots,\mathbf{c}_n) = a.det(\mathbf{c}_1,\ldots,\mathbf{c}_n)$$`
+
+`$$det(\mathbf{c}_1,\ldots,a\mathbf{c}_n) = a.det(\mathbf{c}_1,\ldots,\mathbf{c}_n)$$`
+
+`$$det(\mathbf{c}_1 + \mathbf{c'}_1,\ldots,\mathbf{c}_n) = det(\mathbf{c}_1,\ldots,\mathbf{c}_n) + $det(\mathbf{c'}_1,\ldots,\mathbf{c}_n)$$`
 
 Etc: applies to all columns
 
