@@ -26,7 +26,7 @@ William B. Faulk, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
 
 ## Area of unit square image
 
-The linear map $f: \Bbb{R}^2 \rightarrow \Bbb{R}^2$ is represented by the matrix
+The linear map $f: \Bbb{R}^2 \rightarrow \Bbb{R}^2$ is represented by
 
 `$$\begin{pmatrix}a & b \\ c & d\end{pmatrix}$$`
 
