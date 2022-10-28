@@ -183,7 +183,16 @@ This works for any $i$: usually people use $i=1$
 
 ## 3x3 example
 
+Find the determinant
 
+`$$\begin{align}
+\begin{vmatrix}1&2&3\\3&1&2\\0&0&1\end{vmatrix} &==
+1\begin{vmatrix}1&2\\0&1\end{vmatrix} -2\begin{vmatrix}3&2\\0&1\end{vmatrix}
++ 3\begin{vmatrix}3&1\\0&0\end{vmatrix}
+\end{align}
+$$`
+
+Check your answer in MML example 4.3
 
 ---
 
