@@ -79,7 +79,7 @@ We define the determinant in terms of its properties
 
 If a matrix $A$ is made out of columns vectors $\mathbf{c}_1,\ldots,\mathbf{c}_n$ we can define the function on the columns
 
-$det(C) = det(\mathbf{c}_1,\ldots,\mathbf{c}_n)$ 
+$det(A) = det(\mathbf{c}_1,\ldots,\mathbf{c}_n)$ 
 
 ---
 
