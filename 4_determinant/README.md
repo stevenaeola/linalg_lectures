@@ -112,10 +112,10 @@ The determinant of the identity matrix $I_n$ is 1
 
 ## Properties of determinants (provable)
 
-- If a matrix $B$ is like $A$ but with two columns swapped then $det(B) = - det(A)$
+If a matrix $B$ is like $A$ but with two columns swapped then $det(B) = - det(A)$
 
-  - Consider $det(\mathbf{c}_1+\mathbf{c}_2, \mathbf{c}_1+\mathbf{c}_2, \mathbf{c}_3, \ldots , \mathbf{c}_n)$
-  - Remember repeated columns have determinant 0
+- Consider $det(\mathbf{c}_1+\mathbf{c}_2, \mathbf{c}_1+\mathbf{c}_2, \mathbf{c}_3, \ldots , \mathbf{c}_n)$
+- Remember repeated columns have determinant 0
 
 
 <!-- .slide: class="fragmented-lists" -->
