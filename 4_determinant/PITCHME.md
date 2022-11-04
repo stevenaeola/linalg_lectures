@@ -37,7 +37,7 @@ The linear map $f: \Bbb{R}^2 \rightarrow \Bbb{R}^2$ is represented by
 Using a graphical argument, find the area covered by the quadrilateral whose corners are
 
 - $f((0,0))$
-- $f((1,0)$
+- $f((1,0))$
 - $f((1,1))$
 - $f((0,1))$
 
@@ -126,6 +126,9 @@ The determinant of the identity matrix $I_n$ is 1
 ## Properties of determinants
 
 - If a matrix $B$ is like $A$ but with two columns swapped then $det(B) = - det(A)$
+
+  - Consider $det(\mathbf{c}_1+\mathbf{c}_2, \mathbf{c}_1+\mathbf{c}_2, \mathbf{c}_3, \ldots , \mathbf{c}_n)$
+  - Remember repeated columns have determinant 0
 
 - If a matrix $A$ has a column made up of zeros then $det(A)=0$
 
