@@ -123,7 +123,7 @@ The determinant of the identity matrix $I_n$ is 1
 
 {{{APPEAR}}}
 
-## Properties of determinants
+## Properties of determinants (provable)
 
 - If a matrix $B$ is like $A$ but with two columns swapped then $det(B) = - det(A)$
 
@@ -131,6 +131,8 @@ The determinant of the identity matrix $I_n$ is 1
   - Remember repeated columns have determinant 0
 
 - If a matrix $A$ has a column made up of zeros then $det(A)=0$
+
+- If a scalar multiple of one column is added to another column the determinant is unchanged
 
 - If a matrix $A$ has columns that are linearly dependent then $det(A)=0$
 
