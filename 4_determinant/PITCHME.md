@@ -121,7 +121,7 @@ The determinant of the identity matrix $I_n$ is 1
 
 ---
 
-{{{APPEAR}}}
+
 
 ## Properties of determinants (provable)
 
@@ -129,6 +129,10 @@ The determinant of the identity matrix $I_n$ is 1
 
   - Consider $det(\mathbf{c}_1+\mathbf{c}_2, \mathbf{c}_1+\mathbf{c}_2, \mathbf{c}_3, \ldots , \mathbf{c}_n)$
   - Remember repeated columns have determinant 0
+
+---
+
+{{{APPEAR}}}
 
 - If a matrix $A$ has a column made up of zeros then $det(A)=0$
 

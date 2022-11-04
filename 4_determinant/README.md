@@ -108,7 +108,7 @@ The determinant of the identity matrix $I_n$ is 1
 - The unit square/cuboid/hypercuboid has area/volume 1
 
 
-<!-- .slide: class="fragmented-lists" -->
+
 
 ## Properties of determinants (provable)
 
@@ -116,6 +116,9 @@ The determinant of the identity matrix $I_n$ is 1
 
   - Consider $det(\mathbf{c}_1+\mathbf{c}_2, \mathbf{c}_1+\mathbf{c}_2, \mathbf{c}_3, \ldots , \mathbf{c}_n)$
   - Remember repeated columns have determinant 0
+
+
+<!-- .slide: class="fragmented-lists" -->
 
 - If a matrix $A$ has a column made up of zeros then $det(A)=0$
 
