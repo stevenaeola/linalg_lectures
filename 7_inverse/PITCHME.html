@@ -229,15 +229,18 @@ Proof (sketch)
 
 Assume $f:X \rightarrow Y$ is a linear map
 
-- Can an inverse exist if $dim(X) < dim(Y)$?
-  - No: $dim(f(X)) \leq dim(X)$, so $dim(f(X)) < dim(Y)$
+Can an inverse exist if $dim(X) < dim(Y)$?
+ - $dim(f(X)) \leq dim(X)$, so $dim(f(X)) < dim(Y)$
+ - Some elements of $Y$ are not in $f(X)$
+ - No
 
 ---
 
-- Can an inverse exist if $dim(X) > dim(Y)$?
+Can an inverse exist if $dim(X) > dim(Y)$?
   - The columns of the matrix cannot be linearly independent
   - So there is a non-zero vector that maps to zero (kernel is non-trivial)
   - So any inverse cannot be unique because $f(\mathbf{x} + \mathbf{k}) = f(\mathbf{x})$ if $k$ is in the kernel
+  - No
 
 ---
 
