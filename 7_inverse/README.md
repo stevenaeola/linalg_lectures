@@ -7,16 +7,37 @@ COMP1021 MCS: Linear algebra
 
 ## Previously
 
-See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/tree/a2f55831993da5e52848b86e57f004452bff43f4)
+See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/a2f55831993da5e52848b86e57f004452bff43f4/concepts.mmd)
 
 Things in pink we will look at today
 
 
-Questions? On determinants, row-echelon form, reduced row echelon form
-Order of Steps of Gaussian elimination and Gauss-Jordan 
-Given rref, write down solutions of equations
+## Reminder: row-echelon form
 
-Rows of matrix as basis vector images
+- All zero rows at the bottom
+- Leading 1s in non-zero rows
+- Leading 1s move right as you go down rows
+
+
+<!-- .slide: class="fragmented-lists" -->
+
+## Reminder: Gaussian elimination 
+
+Gaussian elimination produces row-echeolon form
+  - Find pivot column, leftmost non-zero
+  - Non-zero pivot element at top, swap rows if necessary
+  - Multiply row to change pivot column to 1
+  - Add multiples of top row to make other values in pivot column 0
+  - Do GE on remaining rows
+
+
+## Reminder: Gauss-Jordan elimination
+
+- Produces reduced row-echeolon form
+- Add suitable multiples of each row to create 0s above the leading 1s
+- Can read off solutions directly
+- Can find general solution to linear system
+
 
 <!-- .slide: class="fragmented-lists" -->
 
@@ -29,7 +50,6 @@ Rows of matrix as basis vector images
 - When $f:X \rightarrow Y$ then $g$ is an inverse function of $f$ if $\forall x \in X.g(f(x)) = x$ and $\forall y \in Y.f(g(y)) = y$
 
 
-
 ## Inverse of a 2x2 matrix
 
 Suppose we want to find the inverse of 
@@ -40,7 +60,7 @@ Then we want
 
 `$$\begin{pmatrix}w&x\\y&z\end{pmatrix}\begin{pmatrix}1&2\\3&4\end{pmatrix} = \begin{pmatrix}1&0\\0&1\end{pmatrix}$$`
 
-Which gives the equations
+This gives the equations
 
 `$$\begin{align}
 w + 3x &= 1 \\
@@ -53,8 +73,7 @@ $$`
 Solve these simultaneous equations for $w,x,y,z$
 
 
-Answer is $\begin{pmatrix}-2&1\\ \frac{3}{2} & -\frac{1}{2}$
-
+Answer is $\begin{pmatrix}-2&1\\ \frac{3}{2} & -\frac{1}{2}\end{pmatrix}$
 
 
 ## General form of 2x2 inverse
@@ -63,14 +82,18 @@ Using the same approach for the general matrix $A$ write
 
 `$$\begin{pmatrix}w&x\\y&z\end{pmatrix}\begin{pmatrix}a&b\\c&d\end{pmatrix} = \begin{pmatrix}1&0\\0&1\end{pmatrix}$$`
 
-We get $A^{-1} = \frac{1}{ad-bc}\begin{pmatrix}d&-b\\-c&a\end{pmatrix}$
+We get 
+
+`$$A^{-1} = \frac{1}{ad-bc}\begin{pmatrix}d&-b\\-c&a\end{pmatrix}$$`
 
 N.B. The inverse does not exist if the determinant is 0
 
 
 ## Inverse commutes
 
-In general matrix multiplication is not commutative but if $AB=I$ then
+In general matrix multiplication is not commutative
+
+But if $AB=I$ then
 
 `$$ A = IA = (AB)A = A(BA)$$`
 
@@ -85,12 +108,15 @@ So $BA$ is also the identity and hence $AA^{-1} = A^{-1}A = I$
 - Or, equivalently $AB = I$
 - Could write down lots of equations and solve to find elements of $B$
 - But we have a better way of solving systems of linear equations!
-- Use Gauss-Jordan elimination on $A|I$
+- Use Gauss-Jordan elimination on augmented matrix $A|I$
 
 
 ## Inverse of 2x2 example with Gauss-Jordan
 
-Find inverse of $\begin{pmatrix}1&2\\3&4\end{pmatrix}$
+Find inverse of 
+
+`$$\begin{pmatrix}1&2\\3&4\end{pmatrix}$$`
+
 
 `$$\begin{align}
 \begin{pmatrix}1&2&1&0\\3&4&0&1\end{pmatrix} 
@@ -105,37 +131,38 @@ $$`
 
 ## Column space and column rank
 
-- Columns of a matrix are images of canonical basis vectors
 - All vectors can be written as linear combinations of basis vectors
 - Under a linear map $f: X \rightarrow Y, f(a\mathbf{x} + b \mathbf{y}) = a f(\mathbf{x}) + b f(\mathbf{y})$
 - $f(X)$ is the span of of the columns, called the _column space_
-- We define the _column rank_ to be the dimension of the column space
-- The column rank is equal to the number of linearly independent columns in the matrix
+- Define the _column rank_ as the dimension of the column space
+- Column rank = number of linearly independent columns
 
 
 ## Row rank
 
 - Define row space and row rank similarly
-- Define _row space_ to be the span of all the row vectors
-- Define _row rank_ is the dimension of the row space
-- The row rank is equal to the number of linearly independent rows in the matrix
+- Define _row space_ as the span of all the row vectors
+- Define _row rank_ as the dimension of the row space
+- The row rank is equal to the number of linearly independent rows 
 
 
-
-
-## Row rank=column rank
-
-- Proof (sketch)
-  - Each step of Gauss-Jordan elimination leaves column and row rank unchanged
-  - Reduced row echelon form is reached
-  - Can do more row/column operations to arrive at identity matrix surrounded by 0s
-  - In this form row rank=column rank
-- Define _rank_ of a matrix as the row/column rank
-
-
-## Implications of Row rank=column rank
 
 <!-- .slide: class="fragmented-lists" -->
+## Row rank=column rank
+
+Proof (sketch)
+- Each step of Gauss-Jordan elimination leaves column and row rank unchanged
+- Reduced row echelon form is reached
+- Can do more row/column operations to arrive at identity matrix surrounded by 0s
+- In this form row rank=column rank
+
+Define _rank_ of a matrix as the row/column rank
+
+
+<!-- .slide: class="fragmented-lists" -->
+
+## Implications
+
 
 - IMPORTANT RESULT
 - Dimension of $f(X)$ is the rank of the matrix for $f$
