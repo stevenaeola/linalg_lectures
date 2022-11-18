@@ -185,6 +185,8 @@ Proof (sketch)
 - The kernel forms a vector space: all linear combinations of kernel elements are in the kernel
 
 
+<!-- .slide: class="fragmented-lists" -->
+
 ## No inverse of non-square matrices
 
 Assume $f:X \rightarrow Y$ is a linear map
@@ -194,6 +196,8 @@ Can an inverse exist if $dim(X) < dim(Y)$?
  - Some elements of $Y$ are not in $f(X)$
  - No
 
+
+<!-- .slide: class="fragmented-lists" -->
 
 Can an inverse exist if $dim(X) > dim(Y)$?
   - The columns of the matrix cannot be linearly independent

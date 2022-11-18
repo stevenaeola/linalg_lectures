@@ -204,6 +204,8 @@ Proof (sketch)
 
 ---
 
+{{{APPEAR}}}
+
 ## No inverse of non-square matrices
 
 Assume $f:X \rightarrow Y$ is a linear map
@@ -214,6 +216,8 @@ Can an inverse exist if $dim(X) < dim(Y)$?
  - No
 
 ---
+
+{{{APPEAR}}}
 
 Can an inverse exist if $dim(X) > dim(Y)$?
   - The columns of the matrix cannot be linearly independent
