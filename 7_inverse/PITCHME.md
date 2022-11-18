@@ -66,7 +66,7 @@ Then we want
 
 `$$\begin{pmatrix}w&x\\y&z\end{pmatrix}\begin{pmatrix}1&2\\3&4\end{pmatrix} = \begin{pmatrix}1&0\\0&1\end{pmatrix}$$`
 
---- 
+---
 
 This gives the equations
 
