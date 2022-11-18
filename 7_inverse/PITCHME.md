@@ -1,6 +1,6 @@
 {{{PURPLESLIDE}}}
 
-## Matrix inverse
+## Matrix inverse, rank, kernel
 
 COMP1021 MCS: Linear algebra
 
