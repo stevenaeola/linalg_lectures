@@ -26,7 +26,7 @@ Things in pink we will look at today
 
 ## Reminder: Gaussian elimination 
 
-Gaussian elimination produces row-echeolon form
+Gaussian elimination produces row-echelon form
   - Find pivot column, leftmost non-zero
   - Non-zero pivot element at top, swap rows if necessary
   - Multiply row to change pivot column to 1
@@ -67,6 +67,7 @@ Then we want
 `$$\begin{pmatrix}w&x\\y&z\end{pmatrix}\begin{pmatrix}1&2\\3&4\end{pmatrix} = \begin{pmatrix}1&0\\0&1\end{pmatrix}$$`
 
 --- 
+
 This gives the equations
 
 `$$\begin{align}
@@ -81,13 +82,15 @@ Solve these simultaneous equations for $w,x,y,z$
 
 ---
 
-Answer is $\begin{pmatrix}-2&1\\ \frac{3}{2} & -\frac{1}{2}\end{pmatrix}$
+Answer is 
+
+`$$\begin{pmatrix}-2&1\\ \frac{3}{2} & -\frac{1}{2}\end{pmatrix}$$`
 
 ---
 
 ## General form of 2x2 inverse
 
-Using the same approach for the general matrix $A$ write
+Using the same approach for the general matrix $A$
 
 `$$\begin{pmatrix}w&x\\y&z\end{pmatrix}\begin{pmatrix}a&b\\c&d\end{pmatrix} = \begin{pmatrix}1&0\\0&1\end{pmatrix}$$`
 
@@ -112,7 +115,7 @@ So $BA$ is also the identity and hence $AA^{-1} = A^{-1}A = I$
 ---
 {{{APPEAR}}}
 
-## Finding inverse by Gauss-Jordan elimination
+## Inverse by Gauss-Jordan elimination
 
 
 - Given $A$ we want to find $B$ so that $BA = I$
@@ -149,7 +152,7 @@ $$`
 - Under a linear map $f: X \rightarrow Y, f(a\mathbf{x} + b \mathbf{y}) = a f(\mathbf{x}) + b f(\mathbf{y})$
 - $f(X)$ is the span of of the columns, called the _column space_
 - Define the _column rank_ as the dimension of the column space
-- Column rank = number of linearly independent columns
+- Column rank = \# linearly independent columns
 
 ---
 
@@ -158,7 +161,7 @@ $$`
 - Define row space and row rank similarly
 - Define _row space_ as the span of all the row vectors
 - Define _row rank_ as the dimension of the row space
-- The row rank is equal to the number of linearly independent rows 
+- Row rank = \# linearly independent rows 
 
 ---
 
@@ -166,13 +169,14 @@ $$`
 {{{APPEAR}}}
 ## Row rank=column rank
 
+Define _rank_ of a matrix as the row/column rank
+
 Proof (sketch)
 - Each step of Gauss-Jordan elimination leaves column and row rank unchanged
 - Reduced row echelon form is reached
 - Can do more row/column operations to arrive at identity matrix surrounded by 0s
 - In this form row rank=column rank
 
-Define _rank_ of a matrix as the row/column rank
 
 ---
 
@@ -185,7 +189,7 @@ Define _rank_ of a matrix as the row/column rank
 - Dimension of $f(X)$ is the rank of the matrix for $f$
 - Can calculate rank by Gaussian elimination
   - Count non-zero rows in row-echelon form of non-augmented matrix
-- Matrix has _full rank_ if the rank is as high as it can be (max of number of rows, number of columns)
+- Matrix has _full rank_ if the rank is as high as it can be (max \#rows, \#columns)
 
 ---
 
@@ -194,7 +198,7 @@ Define _rank_ of a matrix as the row/column rank
 - if $f:X \rightarrow Y$ is a linear map
 - _kernel_  or _null space_ of $f$ is the set of vectors that map to $\mathbf{0}$ i.e. 
 
-`$$\lbra \mathbf{x} \in X.f(\mathbf{x}) = \mathbf{0} \rbra$$`
+`$$\{ \mathbf{x} \in X.f(\mathbf{x}) = \mathbf{0} \}$$`
 
 - The kernel forms a vector space: all linear combinations of kernel elements are in the kernel
 
@@ -206,6 +210,9 @@ Assume $X$ and $Y$ are vector spaces $f:X \rightarrow Y$ is a linear map
 
 - Can an inverse exist if $dim(X) < dim(Y)$?
   - No: $dim(f(X)) \leq dim(X)$, so $dim(f(X)) < dim(Y)$
+
+---
+
 - Can an inverse exist if $dim(X) > dim(Y)$?
   - The columns of the matrix cannot be linearly independent
   - So there is a non-zero vector that maps to zero (kernel is non-trivial)
@@ -217,8 +224,8 @@ Assume $X$ and $Y$ are vector spaces $f:X \rightarrow Y$ is a linear map
 
 ## More
 
-- [3B1B Chapter 7: Inverse matrices, column space and null space](https://www.youtube.com/watch?v=uQhTuRlWMxw) and [3B1B Chapter 8: Nonsquare matrices as transformations between dimensions](https://www.youtube.com/watch?v=v8VSDg_WQlA)
-
+- [3B1B Chapter 7: Inverse matrices, column space and null space](https://www.youtube.com/watch?v=uQhTuRlWMxw)
+- [3B1B Chapter 8: Nonsquare matrices as transformations between dimensions](https://www.youtube.com/watch?v=v8VSDg_WQlA)
 - [MML book](https://mml-book.github.io/book/mml-book.pdf) section 2.2.2
 
 Next time: Dot products and norms
