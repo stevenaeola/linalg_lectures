@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/stevenaeola/linalg_lectures#readme",
   "dependencies": {
-    "mustache": "^4.2.0"
+    "mustache": "^4.2.0",
+    "reveal.js": "^4.4.0"
   }
 }
