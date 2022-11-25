@@ -56,7 +56,7 @@ Any non-zero vector $\mathbf{x}$ can be used to define a unit vector in the dire
 
 Given a vector space $X$ a function $d:X \rightarrow \Bbb{R}$ is a _norm_ if it satisfies
 - Triangle inequality. $d(\mathbf{x} + \mathbf{y}) \leq d(\mathbf{x}) + d(\mathbf{y})$ for all $\mathbf{x},\mathbf{y} \in X$
-- Absolute homogeneity. $d(s\mathbf{x}) = |s|d(\mathbf{x})$ or all $\mathbf{x} \in X$ and scalars $s$
+- Absolute homogeneity. $d(s\mathbf{x}) = |s|d(\mathbf{x})$ for all $\mathbf{x} \in X$ and scalars $s$
 - Positive definite. If $d(\mathbf{x}) = 0$ then $\mathbf{x} = \mathbf{0}$
 
 ---
@@ -126,7 +126,7 @@ What happens if $p \rightarrow 0$?
 
 `$$\lim_{p\to 0} x^p = 1$$`
 
-`$$\lim_{p\to 0} \| \mathbf{x} \| = \infty$$`
+`$$\lim_{p\to 0} \| \mathbf{x} \|_p = \infty$$`
 
 But (assuming $0^0=0$), can define $\ell_0$ as
 
@@ -174,7 +174,7 @@ Also referred to as inner product, scalar product
 - Finds projection of a vector in the direction of the other
 - $\hat{\mathbf{a}} \cdot \hat{\mathbf{b}} = \hat{\mathbf{b}} \cdot \hat{\mathbf{a}} = \cos \theta$
 - $(s \mathbf{a}) \cdot \\mathbf{b} = s(\mathbf{a} \cdot \mathbf{b})$
-- $(\mathbf{a_1} + \mathbf{a_1})\cdot \mathbf{b} = \mathbf{a_1} \cdot \mathbf{b} + \mathbf{a_2} \cdot \mathbf{b}$
+- $(\mathbf{a_1} + \mathbf{a_2})\cdot \mathbf{b} = \mathbf{a_1} \cdot \mathbf{b} + \mathbf{a_2} \cdot \mathbf{b}$
 - $\mathbf{a} \cdot \mathbf{b} = 0$ if only if they are orthogonal or one is zero
 
 `$$\mathbf{a} \cdot \mathbf{a} = \| \mathbf{a} \|_2^2$$`
