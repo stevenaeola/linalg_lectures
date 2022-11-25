@@ -42,7 +42,7 @@ A unit vector has length (norm) 1
 
 Any non-zero vector $\mathbf{x}$ can be used to define a unit vector in the direction of $\mathbf{x}$
 
-`$$\mathbf{\hat{x}} = \mathbf{x}/ \| \mathbf{x} \|_2$$`
+`$$\mathbf{\hat{x}} = 1/\|\mathbf{x}\|_2 \mathbf{x}$$`
 
 
 <!-- .slide: class="fragmented-lists" -->
