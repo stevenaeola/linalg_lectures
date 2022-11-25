@@ -130,7 +130,7 @@ What happens if $p \rightarrow 0$?
 
 But (assuming $0^0=0$), can define $\ell_0$ as
 
-`$$ \| (x_1,\ldots,x_n) = |x_0|^0 + \ldots + |x_n|^0 $$`
+`$$ \| (x_1,\ldots,x_n) \|_0= |x_0|^0 + \ldots + |x_n|^0 $$`
 
 i.e. The number of locations in which $\mathbf{x} \neq 0$
 
