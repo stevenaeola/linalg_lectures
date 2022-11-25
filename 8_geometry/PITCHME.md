@@ -142,7 +142,7 @@ Commonly used (Hamming distance), but not a norm. Why not?
 
 Norms can be [combined](https://en.wikipedia.org/wiki/Norm_(mathematics)#Composite_norms)
 
-Norms can be constructed relative to a point e.g. [railway metric](https://math.stackexchange.com/questions/3386031/show-that-the-railway-metric-is-a-metric)
+Norms can be constructed relative to a point e.g. [British Rail metric](https://en.wikipedia.org/wiki/Metric_space#Miscellaneous_examples)
 
 ---
 
