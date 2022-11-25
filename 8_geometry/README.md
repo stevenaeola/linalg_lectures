@@ -158,7 +158,7 @@ Also referred to as inner product, scalar product
 - Finds projection of a vector in the direction of the other
 - $\hat{\mathbf{a}} \cdot \hat{\mathbf{b}} = \hat{\mathbf{b}} \cdot \hat{\mathbf{a}} = \cos \theta$
 - $(s \mathbf{a}) \cdot \\mathbf{b} = s(\mathbf{a} \cdot \mathbf{b})$
-- $(\mathbf{a_1} + \mathbf{a_1})\cdot \mathbf{b} = \mathbf{a_1} \cdot \mathbf{b} + \mathbf{a_2} \cdot \mathbf{b}$
+- $(\mathbf{a_1} + \mathbf{a_2})\cdot \mathbf{b} = \mathbf{a_1} \cdot \mathbf{b} + \mathbf{a_2} \cdot \mathbf{b}$
 - $\mathbf{a} \cdot \mathbf{b} = 0$ if only if they are orthogonal or one is zero
 
 `$$\mathbf{a} \cdot \mathbf{a} = \| \mathbf{a} \|_2^2$$`
