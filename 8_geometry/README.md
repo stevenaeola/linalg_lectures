@@ -5,6 +5,12 @@
 COMP1021 MCS: Linear Algebra
 
 
+## Previously
+
+See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/48d4d2c75e300340c2b8fea43b8d6ff1160c4478/concepts.mmd)
+
+Things in pink we will look at today
+
 ## Definition and Etymology
 
 > The branch of mathematics concerned with the properties and relations of points, lines, surfaces, and solids (originally one of the four subjects of the quadrivium). In later use also (from the 19th cent.): a generalization of this to spaces of more than three dimensions. 
