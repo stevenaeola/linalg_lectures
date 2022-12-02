@@ -24,7 +24,7 @@ COMP1021 MCS: Linear algebra
 
 ## Reminder: rank
 
-- The number of linearly independent columns (rows) of a matrix
+- The number of linearly independent columns of a matrix
 - Equals the number of linearly independent columns rows of a matrix
 - Equals the dimension of the image space
 - Can be found by Gaussian elimination
