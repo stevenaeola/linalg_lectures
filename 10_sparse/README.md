@@ -71,7 +71,7 @@ Where
 ## How to solve the PageRank equation
 
 - Currently [more than a billion web pages](https://siteefy.com/how-many-websites-are-there/)
-- So solve a $10^9x10^9$ matrix
+- So solve a $10^9\times10^9$ matrix
 - Good news: successive approximation gets close
 - Bad news: just to store the matrix would take $8\times10^{18}$ bytes
 - Good news: a lot of them are zeros (sparse)
