@@ -101,8 +101,8 @@ Where
 - Work out transition probabilities between states
 - Write transitions as a matrix $T$
 - Write weather today as a (sparse) vector $\mathbf{w_0}$
-- $\mathbf{w_{i+1}} = T $
-- Then weather in $n$ days time is likely to be $w_n = T^n \mathbf{w_0}$
+- $\mathbf{w}_{i+1} = T\mathbf{w}_{i}$
+- Then weather in $n$ days time is probably $\mathbf{w}_n = T^n \mathbf{w}_0$
 
 
 <!-- .slide: class="fragmented-lists" -->
