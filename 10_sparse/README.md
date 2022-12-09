@@ -46,7 +46,7 @@ COMP1021 MCS: Linear algebra
 
 ## Solution in the simple case
 
-`$$r(p) = \sum_{q in I(p)}r(q)/l(q)$$`
+`$$r(p) = \sum_{q \in I(p)}r(q)/l(q)$$`
 
 Where 
 - $r$ is the rank function
