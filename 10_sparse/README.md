@@ -41,11 +41,12 @@ COMP1021 MCS: Linear algebra
 - Make an initial assignment of PageRank values to each web page (node)
 - Transfer the PageRank of each page to the pages it links to (follow edges)
 - Weight the Rank according to the number of output links
+- Repeat
 
 
 ## Solution in the simple case
 
-`$$r(p) = \sum_{q in I(p)}r(q)/l(q)}$$`
+`$$r(p) = \sum_{q in I(p)}r(q)/l(q)$$`
 
 Where 
 - $r$ is the rank function
