@@ -85,9 +85,10 @@ So far we have ignored multiplication
 - Call them 'addition' and 'multiplication'
 - In programming we are used to $+$ meaning different things
 
---- 
+---
 
 ## Field axioms
+
 - Look at the [classic definition of a field](https://en.wikipedia.org/wiki/Field_(mathematics)#Classic_definition)
 - What terms are used that we haven't seen yet?
 - Is a field also a group?
