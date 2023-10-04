@@ -1,24 +1,24 @@
 graph TB
-    op[operation]:::previous -- can have --> closure:::previous
-    op -- can have --> identity:::previous
-    op -- can have --> associativity:::previous
-    op -- can have --> commutativity:::previous
-    op -- can have --> distributivity:::previous
-    op -- can have --> inverse
+    op[operation]:::today -- can have --> closure:::today
+    op -- can have --> identity:::today
+    op -- can have --> associativity:::today
+    op -- can have --> commutativity:::today
+    op -- can have --> distributivity:::today
+    op -- can have --> inverse:::today
 
 
     scalar -- forms --> field
 
-    scalar:::previous -- can scale --> vector
+    scalar:::today -- can scale --> vector
 
 
-    vector:::previous -- has  --> add
-    vector:::previous -- forms --> group
-    vector -- pairs have --> dp[dot product]:::today
-    dp -- defines --> orthogonal:::today
-    vector -- can be --> normalised:::today
-    normalised -- with --> norm:::today
-    vs:::previous -- has --> axioms
+    vector:::today -- has  --> add
+    vector:::today -- forms --> group
+    vector -- pairs have --> dp[dot product]
+    dp -- defines --> orthogonal
+    vector -- can be --> normalised
+    normalised -- with --> norm
+    vs -- has --> axioms
 
     vs -- has set of --> scalar
     vs -- allows --> lincomb[linear combination]
@@ -28,49 +28,43 @@ graph TB
 
     vs -- has --> dimension
 
-    vectorset:::previous -- contains --> vector
-    basis:::previous -- spans --> vs
-    lincomb:::previous -- of --> scalar
+    vectorset -- contains --> vector
+    basis -- spans --> vs
+    lincomb -- of --> scalar
     lincomb -- of --> vectorset
-    field:::previous -- has --> axioms
-    group:::previous -- has --> axioms
+    field:::today -- has --> axioms
+    group:::today -- has --> axioms
     field -- includes --> group
 
     field -- has --> add
     field -- has  --> times
     basis -- is a --> vectorset
-    basis -- size defines --> dimension:::previous
-    basis -- can be -->orthonormal:::today
+    basis -- size defines --> dimension
+    basis -- can be -->orthonormal
     orthonormal -- requires --> normalised
 
     orthonormal -- requires --> orthogonal
     dp -- defines a --> norm
 
+    lm[linear map] -- acts on --> vector
+    matrix -- represents --> lm
+    matrix -- has --> add
+    matrix -- has --> times
+    matrix -- has --> determinant
+    determinant -- nonzero implies --> inverse
+    matrix -- can represent --> lineq[system of linear equations]
+    ge[Gaussian elimination] -- acts on --> matrix
+    ge -- reduces matrix to --> ref[row-echelon form]
+    matrix -- can have --> ref
+    matrix -- can be --> diagonal
 
-    
-
-
-lm[linear map]:::previous -- acts on --> vector
-matrix:::previous -- represents --> lm
-matrix -- has --> add
-matrix -- has --> times
-matrix -- has --> determinant
-determinant:::previous -- nonzero implies --> inverse
-matrix -- can represent --> lineq[system of linear equations]:::previous
-ge[Gaussian elimination]:::previous -- acts on --> matrix
-ge -- reduces matrix to --> ref[row-echelon form]:::previous
-matrix -- can have --> ref
-matrix -- can be --> diagonal:::previous
-
-vectorset[set of vectors]
-vectorset -- can have --> indep[linear independence]:::previous
-basis -- has --> indep
-lm -- has --> rank:::previous
-lm -- has --> kernel:::previous
-add[addition]:::previous -- is a --> op
-times[multiplication]:::previous -- is a --> op
-ge -- can find --> inverse:::previous
-axioms:::previous -- govern --> op
+    vectorset[set of vectors]
+    vectorset -- can have --> indep[linear independence]
+    basis -- has --> indep
+    lm -- has --> rank
+    lm -- has --> kernel
+    ge -- can find --> inverse
+    axioms:::today -- govern --> op
 
 classDef today fill:#f9f,stroke:#000,stroke-width:4px;
 classDef previous fill:#fff,stroke:#000,stroke-width:4px;
