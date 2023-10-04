@@ -1,4 +1,6 @@
-#  COMP1021  Maths for Computer Science {data-background-color=#6A246D}
+<!-- .slide: data-background="#6A246D" -->
+
+#  COMP1021  Maths for Computer Science
 
 Linear algebra: mathematical structures
 
@@ -21,8 +23,6 @@ Things in pink we will look at today
 - At each level we fix the interface: can change details e.g. integers and real numbers on computer
 - Algebra = abstraction
 
-:::
-
 
 ## What about maths?
 
@@ -33,7 +33,7 @@ Things in pink we will look at today
 - Programming operations are related to one another e.g. add an element to a list, increase length by 1
 - Axioms are the rules which define a mathematical structure
 - Operations are also abstract
-:::
+
 
 
 ## Groups
@@ -101,7 +101,9 @@ So far we have ignored multiplication
 - Chapter 1 and section 2.4 of [Maths for machine learning](https://mml-book.github.io/)
 
 
-# Next time {data-background-color=#a5c8d0}
+
+<!-- .slide: data-background="#a5c8d0" -->
+# Next time 
 
 Linear combinations of vectors, vector spaces
 
