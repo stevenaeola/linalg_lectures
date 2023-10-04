@@ -1,6 +1,6 @@
 <!-- .slide: data-background="#6A246D" -->
 
-#  COMP1021  Maths for Computer Science
+#  COMP1021 MCS
 
 Linear algebra: mathematical structures
 
