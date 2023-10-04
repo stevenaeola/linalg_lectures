@@ -3,7 +3,7 @@
 
 # Linear algebra: mathematical structures
 
-COMP1021 MCS
+COMP1021 Maths for Computer Science
 
 
 ## Concept map
