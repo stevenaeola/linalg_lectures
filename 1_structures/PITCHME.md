@@ -113,7 +113,7 @@ So far we have ignored multiplication
 - Chapter 1 and section 2.4 of [Maths for machine learning](https://mml-book.github.io/)
 
 
-----
+---
 
 {{{BLUESLIDE}}}
 # Next time 
