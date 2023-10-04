@@ -4,9 +4,17 @@ Linear algebra: mathematical structures
 
 ---
 
+## Concept map
+
+See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/f7807997e745d8d48951b55c5dbeb154dd92149b/concepts.mmd)
+
+Things in pink we will look at today
+
+---
+
 ## Why be abstract?
 
-::: incremental
+{{{APPEAR}}}
 
 - Abstraction allows generalisation
 - E.g. a list can be implemented with an array or a linked list
@@ -21,20 +29,20 @@ Linear algebra: mathematical structures
 
 ## What about maths?
 
-::: incremental
+{{{APPEAR}}}
 - E.g. 3D vectors can be used to model force, position, spin etc
 - In programming we have data structures and operations e.g. string and concatentate
 - A mathematical structure typically defines set(s), operations and axioms
 - Programming operations are related to one another e.g. add an element to a list, increase length by 1
 - Axioms are the rules which define a mathematical structure
-- Now not just the elements are abstract $x$, but also the operations
+- Operations are also abstract
 :::
 
 ---
 
 ## Groups
 ... have a set $G$, a _binary operation_ $\star$, and some axioms
-::: incremental
+{{{APPEAR}}}
 - $\star$ is _closed_ on $G$ i.e. $\star : G \times G \rightarrow G$
 - $\star$ is _associative_ i.e. for all $a,b,c$ in $G$, $a \star (b \star c) = (a \star b) \star c$
 - There exists an _identity_ element $e \in G$ i.e. $\forall a \in G.a \star e = e \star a = a$
@@ -48,7 +56,7 @@ Linear algebra: mathematical structures
 - The integers with +
 - [Symmetries](https://en.wikipedia.org/wiki/Symmetry_group)
 - Anything we can prove about groups in general we know about all these groups
-- E.g. identity is unique
+- E.g. identity is unique - let's prove it
 
 ---
 
@@ -63,9 +71,10 @@ Linear algebra: mathematical structures
 
 ## Finite groups
 
-- Most the examples have had infinite sets (which one hasn't?)
+- Most of the examples have had infinite sets (which one hasn't?)
 - Very common in CS to study finite sets e.g. bits
 - In general we can study $Z_n$ modulo (clock) arithmetic
+- Let's work out what $Z_4$ looks like
 
 ---
 
