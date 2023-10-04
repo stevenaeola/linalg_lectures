@@ -1,8 +1,9 @@
 {{{PURPLESLIDE}}}
 
-#  COMP1021 MCS
 
-Linear algebra: mathematical structures
+# Linear algebra: mathematical structures
+
+COMP1021 MCS
 
 ---
 

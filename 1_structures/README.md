@@ -1,8 +1,9 @@
 <!-- .slide: data-background="#6A246D" -->
 
-#  COMP1021 MCS
 
-Linear algebra: mathematical structures
+# Linear algebra: mathematical structures
+
+COMP1021 MCS
 
 
 ## Concept map
