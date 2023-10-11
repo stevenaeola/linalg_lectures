@@ -110,7 +110,7 @@ We can equivalently say $S$ spans $V$
 
 ## Linear (in)dependence
 
-- __Defn__ A set of vectors $S=\lbrace s_1,\ldots,s_n\rbrace$ is _linearly dependent_ if there exists a linear combination
+- __Defn__ A set of vectors $S=\lbrace \mathbf{s_1},\ldots,\mathbf{s_n}\rbrace$ is _linearly dependent_ if there exists a linear combination
 
 $$ \sum_{i=1}^n a_i\mathbf{s_i} = \mathbf{0} \text{ and } \exists i.a_i \neq 0$$
 
