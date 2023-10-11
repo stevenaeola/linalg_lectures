@@ -30,7 +30,7 @@ Things in pink we will look at today
 - Write scalars plain $a,b \in F$
 - Vectors in $\Bbb{R}^3$ as row $(1,-2,0)$ or column 
 
-$$\left( \begin{array}{c} 1\\-2\\0\end{array} \right)$$
+`$$\left( \begin{array}{c} 1\\-2\\0\end{array} \right)$$`
 
 
 <!-- .slide: class="fragmented-lists" -->
