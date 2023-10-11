@@ -19,13 +19,12 @@ Things in pink we will look at today
 
 - Is a mathematical structure: sets, operations, axioms
 - Has two sets: scalars $F$ and vectors $V$
-- $V$ forms a commutative group under addition
+- $V$ forms a commutative group under addition $\mathbf{u}+\mathbf{v} = \mathbf{v}+\mathbf{u}$
 - $F$ forms a field (different kind of addition)
 - Scalar multiplication $: F \times V \rightarrow V$
 
 ---
 
-{{{APPEAR}}}
 
 ## Notation conventions
 
@@ -42,8 +41,8 @@ Things in pink we will look at today
 
 ## Vector Space Axioms
 
-See [wikipedia](https://en.wikipedia.org/wiki/Vector_space#Definition_and_basic_properties)
 
+- (commutative group and field axioms for vectors and scalars)
 - $a(b\mathbf{v}) = (ab)\mathbf{v}$
 - $1\mathbf{v} = \mathbf{v}$
 - $a(\mathbf{u} + \mathbf{v}) = a\mathbf{u} + a\mathbf{v}$
@@ -64,6 +63,14 @@ See [wikipedia](https://en.wikipedia.org/wiki/Vector_space#Definition_and_basic_
 
 ---
 
+## [3Blue1Brown](https://www.3blue1brown.com/)
+
+[Essence of Linear Algebra](https://youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&si=v4QBmXDAiy5LqX9D)
+
+[Linear combination, span, and basis vectors](https://youtu.be/k7RM-ot2NWY?si=Ey2VR4H-qjlPk1fS)
+
+---
+
 ## Linear combinations
 
 __Defn__ Given vectors $\mathbf{v_1}, \ldots ,\mathbf{v_n}$ and scalars $a_1, \ldots ,a_n$
@@ -77,7 +84,8 @@ Alternatively
 $$ \sum_{i=1}^n a_i\mathbf{v_i} $$
 
 ---
-{{{REVEAL}}}
+
+{{{APPEAR}}}
 
 ## Span
 
@@ -98,7 +106,7 @@ We can equivalently say $S$ spans $V$
 
 ---
 
-{{{REVEAL}}}
+{{{APPEAR}}}
 
 ## Linear (in)dependence
 
@@ -112,7 +120,7 @@ $$ \sum_{i=1}^n a_i\mathbf{s_i} = \mathbf{0} \text{ and } \exists i.a_i \neq 0$$
 
 ---
 
-{{{REVEAL}}}
+{{{APPEAR}}}
 
 ## Basis of a vector space
 
@@ -124,7 +132,7 @@ $$ \sum_{i=1}^n a_i\mathbf{s_i} = \mathbf{0} \text{ and } \exists i.a_i \neq 0$$
 
 ---
 
-{{{REVEAL}}}
+{{{APPEAR}}}
 
 ## Dimension of a vector space
 
@@ -140,7 +148,7 @@ $$ \sum_{i=1}^n a_i\mathbf{s_i} = \mathbf{0} \text{ and } \exists i.a_i \neq 0$$
 
 ---
 
-{{{REVEAL}}}
+{{{APPEAR}}}
 
 ## Summary
 
