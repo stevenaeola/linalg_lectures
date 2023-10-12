@@ -115,7 +115,7 @@ $$ \sum_{i=1}^n a_i\mathbf{s_i} = \mathbf{0} \text{ and } \exists i.a_i \neq 0$$
 
 - __Defn__ A subset $S$ of vector space $V$ is a _basis_ for $V$ if $S$ spans $V$ and $S$ is linearly independent
 
-- In other words $S$ is is the smallest spanning set we can find for $V$
+- In other words $S$ is the smallest spanning set we can find for $V$
 
 - The standard/canonical basis for $\Bbb{R}^3$ is $\lbrace (1,0,0), (0,1,0), (0,0,1) \rbrace$
 
