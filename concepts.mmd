@@ -11,7 +11,7 @@ graph TB
 
     scalar:::previous -- can scale --> vector:::previous
 
-    vector:::today -- forms --> group
+    vector:::previous -- forms --> group
     vector -- pairs have --> dp[dot product]
     dp -- defines --> orthogonal
     vector -- can be --> normalised
@@ -19,12 +19,12 @@ graph TB
     vs -- has --> axioms
 
     vs -- has set of --> scalar
-    vs -- allows --> lincomb[linear combination]:::today
-    vs[vector space]:::today -- has --> vectorset:::today
+    vs -- allows --> lincomb[linear combination]:::previous
+    vs[vector space]:::previous -- has --> vectorset:::previous
 
-    vs -- has --> basis:::today
+    vs -- has --> basis:::previous
 
-    vs -- has --> dimension:::today
+    vs -- has --> dimension:::previous
 
     vectorset -- contains --> vector
     basis -- spans --> vs
@@ -42,8 +42,8 @@ graph TB
     orthonormal -- requires --> orthogonal
     dp -- defines a --> norm
 
-    lm[linear map] -- acts on --> vector
-    matrix -- represents --> lm
+    lm[linear map]:::today -- acts on --> vector
+    matrix:::today -- represents --> lm
     matrix -- has --> determinant
     determinant -- nonzero implies --> inverse
     matrix -- can represent --> lineq[system of linear equations]
@@ -54,7 +54,7 @@ graph TB
 
     vectorset[set of vectors]
     vectorset -- can have --> indep[linear independence]
-    basis -- has --> indep
+    basis -- has --> indep:::previous
     lm -- has --> rank
     lm -- has --> kernel
     ge -- can find --> inverse
