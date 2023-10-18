@@ -13,6 +13,15 @@ See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/44
 Things in pink we will look at today
 
 ---
+
+## Questions
+
+{{{APPEAR}}}
+
+- From the practicals last week?
+- From <pollev.com/stevenaeola>
+
+---
 {{{APPEAR}}}
 
 ## Basis representation
