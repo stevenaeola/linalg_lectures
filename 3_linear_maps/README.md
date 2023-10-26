@@ -87,7 +87,9 @@ For example, rotation by 90 degrees anti-clockwise in $\Bbb{R}^2$
 - A: $(0,1)$ and $(-1,0)$ or $\mathbf{e}_2$ and $-1\mathbf{e}_1$
 - Turn these into column vectors to get the  matrix representation
 
-$$\begin{pmatrix}0&-1 \\1 & 0 \end{pmatrix}$$
+$$\begin{pmatrix}
+0&-1 \\
+1 & 0 \end{pmatrix}$$
 
 
 ## You try
