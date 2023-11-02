@@ -42,9 +42,9 @@ graph TB
     orthonormal -- requires --> orthogonal
     dp -- defines a --> norm
 
-    lm[linear map]:::today -- acts on --> vector
-    matrix:::today -- represents --> lm
-    matrix -- has --> determinant
+    lm[linear map]:::previous -- acts on --> vector
+    matrix:::previous -- represents --> lm
+    matrix -- has --> determinant:::today
     determinant -- nonzero implies --> inverse
     matrix -- can represent --> lineq[system of linear equations]
     ge[Gaussian elimination] -- acts on --> matrix
