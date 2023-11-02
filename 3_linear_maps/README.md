@@ -44,8 +44,10 @@ $$\\lbrace \\mathbf{e}_i: i \\leq 1 \\leq n \\rbrace$$
 ## Linear map
 
 __Defn__ If we have a function $f:V \\rightarrow W$ where $V$ and $W$ are vectors spaces over a field $F$ then $f$ is a _linear map_ if for any vectors $\\mathbf{u}, \\mathbf{v} \\in V$ and $a \\in F$
+
 $$f(\\mathbf{u} + \\mathbf{v}) = f(\\mathbf{u}) + f(\\mathbf{v})$$
-$$f(a \\mathbf{v}) = a f(\\mathbf{v}) $$
+
+$$f(a \\mathbf{v}) = a f(\\mathbf{v}) $$`
 
 
 - This means that a linear map _respects_ linear combinations
@@ -87,9 +89,7 @@ For example, rotation by 90 degrees anti-clockwise in $\\Bbb{R}^2$
 - A: $(0,1)$ and $(-1,0)$ or $\\mathbf{e}_2$ and $-1\\mathbf{e}_1$
 - Turn these into column vectors to get the  matrix representation
 
-$$\\begin{pmatrix}
-0&-1 \\\\
-1 & 0 \\end{pmatrix}$$
+$$\\begin{pmatrix}0&-1 \\\\1 & 0 \\end{pmatrix}$$
 
 
 ## You try
@@ -120,7 +120,7 @@ $$\\small{ A = \\begin{pmatrix} a_{11} & a_{12} & \\ldots & a_{1n}\\\\a_{21} & a
 
 $a_{ij}$ is ith component of f-image of jth basis vector
 
-$$f(\\mathbf{e_j}) = \\sum_{i=1}^m a_{ij} \\mathbf{e}_i$$
+$$f(\\mathbf{e_j}) = \\sum_{i=1}^m a_{ij} \\mathbf{e}_i$$`
 
 
 The image of the vector $A\\mathbf{x} = A(x_1,\\ldots,x_n)$ is
