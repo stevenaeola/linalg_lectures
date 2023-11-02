@@ -7,14 +7,9 @@ COMP1021 MCS: Linear algebra
 
 ## Previously
 
-See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/7a1d5d947e3cea399d4b79471b43754e99c0f555/concepts.mmd)
+See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/7794af3b1bcf1fe50f97c7947652383e7b748776/concepts.mmd)
 
 Things in pink we will look at today
-
-
-## Practical
-
-Choose a question for me to go over
 
 
 ## Pythagoras' Theorem
@@ -28,7 +23,7 @@ William B. Faulk, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
 
 The linear map $f: \Bbb{R}^2 \rightarrow \Bbb{R}^2$ is represented by
 
-`$$\begin{pmatrix}a & b \\ c & d\end{pmatrix}$$`
+$$\begin{pmatrix}a & b \\ c & d\end{pmatrix}$$
 
 Using a graphical argument, find the area covered by the quadrilateral whose corners are
 
@@ -49,16 +44,16 @@ Determinant of matrix $A$ is written as $det(A)$ or $|A|$
 
 For a 2x2 matrix 
 
-`$$det(\begin{pmatrix}a & b \\ c & d\end{pmatrix}) = \begin{vmatrix}a & b \\ c & d\end{vmatrix} = ad-bc$$`
+$$det(\begin{pmatrix}a & b \\ c & d\end{pmatrix}) = \begin{vmatrix}a & b \\ c & d\end{vmatrix} = ad-bc$$
 
 The determinant is the signed area of the image of the unit square
 
 
 ## 2x2 examples
 
-`$$\begin{vmatrix}1 & -2 \\ 3 & -4\end{vmatrix} = 1.(-4) - (-2).3 = 2$$`
+$$\begin{vmatrix}1 & -2 \\ 3 & -4\end{vmatrix} = 1.(-4) - (-2).3 = 2$$
 
-`$$\begin{vmatrix}1 & -2 \\ -2 & 4\end{vmatrix} = 1.4 - (-2).(-2) = 0$$`
+$$\begin{vmatrix}1 & -2 \\ -2 & 4\end{vmatrix} = 1.4 - (-2).(-2) = 0$$
 
 The determinant is 0 when the columns are linearly dependent
 
@@ -78,11 +73,11 @@ $det(A) = det(\mathbf{c}_1,\ldots,\mathbf{c}_n)$
 
 Linearity in each column so that 
 
-`$$det(a\mathbf{c}_1,\ldots,\mathbf{c}_n) = a.det(\mathbf{c}_1,\ldots,\mathbf{c}_n)$$`
+$$det(a\mathbf{c}_1,\ldots,\mathbf{c}_n) = a.det(\mathbf{c}_1,\ldots,\mathbf{c}_n)$$
 
-`$$det(\mathbf{c}_1,\ldots,a\mathbf{c}_n) = a.det(\mathbf{c}_1,\ldots,\mathbf{c}_n)$$`
+$$det(\mathbf{c}_1,\ldots,a\mathbf{c}_n) = a.det(\mathbf{c}_1,\ldots,\mathbf{c}_n)$$
 
-`$$det(\mathbf{c}_1 + \mathbf{c'}_1,\ldots,\mathbf{c}_n) = det(\mathbf{c}_1,\ldots,\mathbf{c}_n) + det(\mathbf{c'}_1,\ldots,\mathbf{c}_n)$$`
+$$det(\mathbf{c}_1 + \mathbf{c'}_1,\ldots,\mathbf{c}_n) = det(\mathbf{c}_1,\ldots,\mathbf{c}_n) + det(\mathbf{c'}_1,\ldots,\mathbf{c}_n)$$
 
 Etc: applies to all columns
 
@@ -129,14 +124,14 @@ If a matrix $B$ is like $A$ but with two columns swapped then $det(B) = - det(A)
 
 ## det() of diagonal matrix
 
-`$$\small{
+$$\small{
 \begin{align}\begin{vmatrix}2&0&0\\0&4&0\\0&0&-3\end{vmatrix} &= 
 2.\begin{vmatrix}1&0&0\\0&4&0\\0&0&-3\end{vmatrix} \\
 &= 2.4.\begin{vmatrix}1&0&0\\0&1&0\\0&0&-3\end{vmatrix} \\
 &= 2.4.-3\begin{vmatrix}1&0&0\\0&1&0\\0&0&1\end{vmatrix} \\
 &= -24
 \end{align}}
-$$`
+$$
 
 
 ## Alternative derivation of 2x2 determinant
@@ -164,7 +159,7 @@ Expanding out indefinitely to matrices whose columns are _permutations_ of the i
 
 Based on this we can use the _Laplace expansion_ 
 
-`$$det(C) = \sum_{j=1}^n (-1)^{i+j}c_{ij}M_{ij}$$`
+$$det(C) = \sum_{j=1}^n (-1)^{i+j}c_{ij}M_{ij}$$
 
 Where $M_{ij}$ is the minor: the determinant of the matrix $C$ with row $i$ and column $j$ removed
 
@@ -175,21 +170,21 @@ This works for any $i$: usually people use $i=1$
 
 Find the determinant
 
-`$$
+$$
 \begin{vmatrix}1&2&3\\ 3&1&2 \\ 0&0&1\end{vmatrix} =
-$$`
+$$
 
-`$$ 1\begin{vmatrix}1&2 \\ 0&1 \end{vmatrix} -2 \begin{vmatrix}3&2 \\ 0&1\end{vmatrix} + 3 \begin{vmatrix}3&1 \\ 0&0 \end{vmatrix}
-$$`
+$$ 1\begin{vmatrix}1&2 \\ 0&1 \end{vmatrix} -2 \begin{vmatrix}3&2 \\ 0&1\end{vmatrix} + 3 \begin{vmatrix}3&1 \\ 0&0 \end{vmatrix}
+$$
 
 Check your answer in [MML](https://mml-book.github.io/book/) example 4.3
 
 
 ## Combining matrices
 
-`$$det(AB) = det(A).det(B)$$`
+$$det(AB) = det(A).det(B)$$
 
-`$$det(A^{-1}) = \frac{1}{det(A)}$$`
+$$det(A^{-1}) = \frac{1}{det(A)}$$
 
 
 <!-- .slide: class="fragmented-lists" -->
