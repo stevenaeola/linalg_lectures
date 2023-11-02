@@ -120,7 +120,7 @@ $$\\small{ A = \\begin{pmatrix} a_{11} & a_{12} & \\ldots & a_{1n}\\\\a_{21} & a
 
 $a_{ij}$ is ith component of f-image of jth basis vector
 
-$$f(\\mathbf{e_j}) = \\sum_{i=1}^m a_{ij} \\mathbf{e}_i$$`
+$$f(\\mathbf{e_j}) = \\sum_{i=1}^m a_{ij} \\mathbf{e}_i$$
 
 
 The image of the vector $A\\mathbf{x} = A(x_1,\\ldots,x_n)$ is
