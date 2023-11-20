@@ -47,47 +47,47 @@ Gaussian elimination produces row-echelon form
 
 - Inverse has to be _unique_ for $f^{-1}$ to be a function (otherwise a relation)
 
-- When $f:X \rightarrow Y$ then $g$ is an inverse function of $f$ if $\forall x \in X.g(f(x)) = x$ and $\forall y \in Y.f(g(y)) = y$
+- When $f:X \\rightarrow Y$ then $g$ is an inverse function of $f$ if $\\forall x \\in X.g(f(x)) = x$ and $\\forall y \\in Y.f(g(y)) = y$
 
 
 ## Inverse of a 2x2 matrix
 
 Suppose we want to find the inverse of 
 
-`$$\begin{pmatrix}1&2\\3&4\end{pmatrix}$$`
+$$\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}$$
 
 Then we want
 
-`$$\begin{pmatrix}w&x\\y&z\end{pmatrix}\begin{pmatrix}1&2\\3&4\end{pmatrix} = \begin{pmatrix}1&0\\0&1\end{pmatrix}$$`
+$$\\begin{pmatrix}w&x\\\\y&z\\end{pmatrix}\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix} = \\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$$
 
 
 This gives the equations
 
-`$$\begin{align}
-w + 3x &= 1 \\
-2w + 4x &= 0 \\
-y + 3z &= 0\\
+$$\\begin{align}
+w + 3x &= 1 \\\\
+2w + 4x &= 0 \\\\
+y + 3z &= 0\\\\
 2y + 4z &= 1 
-\end{align}
-$$`
+\\end{align}
+$$
 
 Solve these simultaneous equations for $w,x,y,z$
 
 
 Answer is 
 
-`$$\begin{pmatrix}-2&1\\ \frac{3}{2} & -\frac{1}{2}\end{pmatrix}$$`
+$$\\begin{pmatrix}-2&1\\\\ \\frac{3}{2} & -\\frac{1}{2}\\end{pmatrix}$$
 
 
 ## General form of 2x2 inverse
 
 Using the same approach for the general matrix $A$
 
-`$$\begin{pmatrix}w&x\\y&z\end{pmatrix}\begin{pmatrix}a&b\\c&d\end{pmatrix} = \begin{pmatrix}1&0\\0&1\end{pmatrix}$$`
+$$\\begin{pmatrix}w&x\\\\y&z\\end{pmatrix}\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix} = \\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$$
 
 We get 
 
-`$$A^{-1} = \frac{1}{ad-bc}\begin{pmatrix}d&-b\\-c&a\end{pmatrix}$$`
+$$A^{-1} = \\frac{1}{ad-bc}\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}$$
 
 N.B. The inverse does not exist if the determinant is 0
 
@@ -98,7 +98,7 @@ In general matrix multiplication is not commutative
 
 But if $AB=I$ then
 
-`$$ A = IA = (AB)A = A(BA)$$`
+$$ A = IA = (AB)A = A(BA)$$
 
 So $BA$ is also the identity and hence $AA^{-1} = A^{-1}A = I$
 
@@ -118,16 +118,16 @@ So $BA$ is also the identity and hence $AA^{-1} = A^{-1}A = I$
 
 Find inverse of 
 
-`$$\begin{pmatrix}1&2\\3&4\end{pmatrix}$$`
+$$\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}$$
 
 
-`$$\begin{align}
-\begin{pmatrix}1&2&1&0\\3&4&0&1\end{pmatrix} 
-&\rightsquigarrow \begin{pmatrix}1&2&1&0\\0&-2&-3&1\end{pmatrix} \\
-&\rightsquigarrow \begin{pmatrix}1&2&1&0\\0&1&\frac{3}{2}&-\frac{1}{2}\end{pmatrix} \\
-&\rightsquigarrow \begin{pmatrix}1&0&-2&1\\0&1&\frac{3}{2}&-\frac{1}{2}\end{pmatrix} \\
-\end{align}
-$$`
+$$\\begin{align}
+\\begin{pmatrix}1&2&1&0\\\\3&4&0&1\\end{pmatrix} 
+&\\rightsquigarrow \\begin{pmatrix}1&2&1&0\\\\0&-2&-3&1\\end{pmatrix} \\\\
+&\\rightsquigarrow \\begin{pmatrix}1&2&1&0\\\\0&1&\\frac{3}{2}&-\\frac{1}{2}\\end{pmatrix} \\\\
+&\\rightsquigarrow \\begin{pmatrix}1&0&-2&1\\\\0&1&\\frac{3}{2}&-\\frac{1}{2}\\end{pmatrix} \\\\
+\\end{align}
+$$
 
 
 <!-- .slide: class="fragmented-lists" -->
@@ -135,10 +135,10 @@ $$`
 ## Column space and column rank
 
 - All vectors can be written as linear combinations of basis vectors
-- Under a linear map $f: X \rightarrow Y, f(a\mathbf{x} + b \mathbf{y}) = a f(\mathbf{x}) + b f(\mathbf{y})$
+- Under a linear map $f: X \\rightarrow Y, f(a\\mathbf{x} + b \\mathbf{y}) = a f(\\mathbf{x}) + b f(\\mathbf{y})$
 - $f(X)$ is the span of of the columns, called the _column space_
 - Define the _column rank_ as the dimension of the column space
-- Column rank = \# linearly independent columns
+- Column rank = \\# linearly independent columns
 
 
 ## Row rank
@@ -146,7 +146,7 @@ $$`
 - Define row space and row rank similarly
 - Define _row space_ as the span of all the row vectors
 - Define _row rank_ as the dimension of the row space
-- Row rank = \# linearly independent rows 
+- Row rank = \\# linearly independent rows 
 
 
 
@@ -172,15 +172,15 @@ Proof (sketch)
 - Dimension of $f(X)$ is the rank of the matrix for $f$
 - Can calculate rank by Gaussian elimination
   - Count non-zero rows in row-echelon form of non-augmented matrix
-- Matrix has _full rank_ if the rank is as high as it can be (max \#rows, \#columns)
+- Matrix has _full rank_ if the rank is as high as it can be (max \\#rows, \\#columns)
 
 
 ## Kernel of a linear map
 
-- if $f:X \rightarrow Y$ is a linear map
-- _kernel_  or _null space_ of $f$ is the set of vectors that map to $\mathbf{0}$ i.e. 
+- if $f:X \\rightarrow Y$ is a linear map
+- _kernel_  or _null space_ of $f$ is the set of vectors that map to $\\mathbf{0}$ i.e. 
 
-`$$\{ \mathbf{x} \in X.f(\mathbf{x}) = \mathbf{0} \}$$`
+$$\\{ \\mathbf{x} \\in X.f(\\mathbf{x}) = \\mathbf{0} \\}$$
 
 - The kernel forms a vector space: all linear combinations of kernel elements are in the kernel
 
@@ -189,10 +189,10 @@ Proof (sketch)
 
 ## No inverse of non-square matrices
 
-Assume $f:X \rightarrow Y$ is a linear map
+Assume $f:X \\rightarrow Y$ is a linear map
 
 Can an inverse exist if $dim(X) < dim(Y)$?
- - $dim(f(X)) \leq dim(X)$, so $dim(f(X)) < dim(Y)$
+ - $dim(f(X)) \\leq dim(X)$, so $dim(f(X)) < dim(Y)$
  - Some elements of $Y$ are not in $f(X)$
  - No
 
@@ -202,7 +202,7 @@ Can an inverse exist if $dim(X) < dim(Y)$?
 Can an inverse exist if $dim(X) > dim(Y)$?
   - The columns of the matrix cannot be linearly independent
   - So there is a non-zero vector that maps to zero (kernel is non-trivial)
-  - So any inverse cannot be unique because $f(\mathbf{x} + \mathbf{k}) = f(\mathbf{x})$ if $\mathbf{k}$ is in the kernel
+  - So any inverse cannot be unique because $f(\\mathbf{x} + \\mathbf{k}) = f(\\mathbf{x})$ if $\\mathbf{k}$ is in the kernel
   - No
 
 
