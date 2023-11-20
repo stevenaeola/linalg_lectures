@@ -46,11 +46,11 @@ graph TB
     matrix:::previous -- represents --> lm
     matrix -- has --> determinant:::previous
     determinant -- nonzero implies --> inverse
-    matrix -- can represent --> lineq[system of linear equations]
+    matrix -- can represent --> lineq[system of linear equations]:::previous
     ge[Gaussian elimination] -- acts on --> matrix
     ge -- reduces matrix to --> ref[row-echelon form]
     matrix -- can have --> ref:::previous
-    matrix -- can be --> diagonal
+    matrix -- can be --> diagonal:::previous
 
     vectorset[set of vectors]
     vectorset -- can have --> indep[linear independence]
