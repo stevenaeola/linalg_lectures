@@ -7,7 +7,7 @@ COMP1021 MCS: Linear algebra
 
 ## Previously
 
-See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/a2f55831993da5e52848b86e57f004452bff43f4/concepts.mmd)
+See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/f6cbab578484660296735a5c73902ac70e3040bf/concepts.mmd)
 
 Things in pink we will look at today
 
