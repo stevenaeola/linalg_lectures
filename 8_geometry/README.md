@@ -33,7 +33,7 @@ We will think about lengths of vectors (norms) and angles between vectors
 
 If $\mathbf{x} = (x_1,\ldots,x_n) \in \Bbb{R}^n$ then the _Euclidean norm_ is defined as
 
-$$ \| \mathbf{x} \|_2 = \sum_{i=1}^n x_i^2 $$
+$$ \| \mathbf{x} \|_2 = \sum_{i=1}^n $$
 
 It is often shortened to 
 
