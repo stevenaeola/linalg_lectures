@@ -109,7 +109,7 @@ Is this a norm?
 
 Given $p \in \Bbb{R}^{+}$ we can define the _p-norm_ $\ell_p$ on $\Bbb{R}^n$ as
 
-`$$\| \mathbf{x} \|_p = \sqrt[p]{\sum_{i=1}^n |x_i|^p}$$`
+`$$\| \mathbf{x} \|_p = \sqrt[p]{\sum_i |x_i|^p}$$`
 
 - $\ell_1$ is the Manhattan norm
 - $\ell_2$ is the Euclidean norm
