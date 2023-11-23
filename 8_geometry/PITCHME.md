@@ -8,7 +8,7 @@ COMP1021 MCS: Linear Algebra
 
 ## Previously
 
-See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/48d4d2c75e300340c2b8fea43b8d6ff1160c4478/concepts.mmd)
+See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/cd3e6110e22a596d52b7943be36841e7487eeb95/concepts.mmd)
 
 Things in pink we will look at today
 
@@ -37,7 +37,7 @@ We will think about lengths of vectors (norms) and angles between vectors
 
 If $\mathbf{x} = (x_1,\ldots,x_n) \in \Bbb{R}^n$ then the _Euclidean norm_ is defined as
 
-`$$\| \mathbf{x} \|_2 = \sqrt{\sum_{i=1}^n x_i^2}$$`
+`$$ \| \mathbf{x} \|_2 = \sqrt {\sum_i x_i^2 } $$`
 
 It is often shortened to 
 
@@ -53,7 +53,7 @@ A unit vector has length (norm) 1
 
 Any non-zero vector $\mathbf{x}$ can be used to define a unit vector in the direction of $\mathbf{x}$
 
-`$$\mathbf{\hat{x}} = \frac{1}{\|\mathbf{x}\|_2} \mathbf{x}$$`
+`$$\mathbf{\hat{x}} = \frac{1}{\| \mathbf{x} \|_2} \mathbf{x}$$`
 
 ---
 
@@ -91,7 +91,7 @@ To get anywhere you have to travel some distance north/south and some distance e
 
 This gives rise to the Manhattan distance
 
-`$$d_M((x_1, \ldots , x_n)) = \sum_{i = 1}^n |x_i|$$`
+`$$d_M((x_1, \ldots , x_n)) = \sum_i |x_i|$$`
 
 Is this a norm?
 
@@ -109,7 +109,7 @@ Is this a norm?
 
 Given $p \in \Bbb{R}^{+}$ we can define the _p-norm_ $\ell_p$ on $\Bbb{R}^n$ as
 
-`$$\| \mathbf{x} \|_p = \sqrt[p]{\sum_{i=1}^n |x_i|^p}$$`
+`$$\| \mathbf{x} \|_p = \sqrt[p]{\sum_i |x_i|^p}$$`
 
 - $\ell_1$ is the Manhattan norm
 - $\ell_2$ is the Euclidean norm

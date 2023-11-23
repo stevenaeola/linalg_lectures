@@ -13,9 +13,9 @@ graph TB
 
     vector:::previous -- forms --> group
     vector -- pairs have --> dp[dot product]
-    dp -- defines --> orthogonal
+    dp:::today -- defines --> orthogonal:::today
     vector -- can be --> normalised
-    normalised -- with --> norm
+    normalised -- with --> norm:::today
     vs -- has --> axioms
 
     vs -- has set of --> scalar
@@ -37,9 +37,9 @@ graph TB
     basis -- is a --> vectorset
     basis -- size defines --> dimension
     basis -- can be -->orthonormal
-    orthonormal -- requires --> normalised
+    orthonormal:::today -- requires --> normalised:::today
 
-    orthonormal -- requires --> orthogonal
+    orthonormal -- requires --> orthogonal:::today
     dp -- defines a --> norm
 
     lm[linear map]:::previous -- acts on --> vector
@@ -55,9 +55,9 @@ graph TB
     vectorset[set of vectors]
     vectorset -- can have --> indep[linear independence]
     basis -- has --> indep:::previous
-    lm -- has --> rank:::today
-    lm -- has --> kernel:::today
-    ge:::today -- can find --> inverse
+    lm -- has --> rank:::previous 
+    lm -- has --> kernel
+    ge:::previous  -- can find --> inverse
     axioms:::previous -- govern --> op
 
 classDef today fill:#f9f,stroke:#000,stroke-width:4px;
