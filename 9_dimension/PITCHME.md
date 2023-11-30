@@ -20,7 +20,7 @@ COMP1021 MCS: Linear algebra
 
 {{{APPEAR}}}
 
-## Row rank - Column rank
+## Row rank = Column rank
 
 - Discussed last time
 - IMPORTANT RESULT

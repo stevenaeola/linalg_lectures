@@ -18,7 +18,7 @@ COMP1021 MCS: Linear algebra
 
 <!-- .slide: class="fragmented-lists" -->
 
-## Row rank - Column rank
+## Row rank = Column rank
 
 - Discussed last time
 - IMPORTANT RESULT
