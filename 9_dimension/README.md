@@ -59,7 +59,6 @@ Can an inverse exist if $dim(X) > dim(Y)$?
   - No
 
 
-
 ## Rank-nullity theorem
 
 Define nullity as the dimension of the kernel
