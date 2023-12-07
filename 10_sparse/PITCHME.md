@@ -107,7 +107,7 @@ Where
 
 ## [Weather as a Markov process](https://towardsdatascience.com/predicting-the-weather-with-markov-chains-a34735f0c4df)
 
-- Look at the [history of weather in the place](https://www.timeanddate.com/weather/@830603/historic?month=12&year=2021)
+- Look at the [history of weather in the place](https://www.timeanddate.com/weather/@830603/historic?month=12&year=2022)
 - Work out transition probabilities between states
 - Write transitions as a matrix $T$
 - Write weather today as a (sparse) vector $\mathbf{w_0}$

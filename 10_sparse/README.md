@@ -46,7 +46,7 @@ COMP1021 MCS: Linear algebra
 
 ## Solution in the simple case
 
-`$$r(p) = \sum_{q \in I(p)}r(q)/l(q)$$`
+$$r(p) = \sum_{q \in I(p)}r(q)/l(q)$$
 
 Where 
 - $r$ is the rank function
@@ -62,7 +62,7 @@ Where
 - Make $M$ the transposed modified adjacency matrix: scale so each column sums to 1
 - Write the vector $\mathbf{r}$ as $(r_1,\ldots,r_n)$
 
-`$$M\mathbf{r} = \mathbf{r}$$`
+$$M\mathbf{r} = \mathbf{r}$$
 
 - More complex version includes _damping_
 
@@ -97,7 +97,7 @@ Where
 
 ## [Weather as a Markov process](https://towardsdatascience.com/predicting-the-weather-with-markov-chains-a34735f0c4df)
 
-- Look at the [history of weather in the place](https://www.timeanddate.com/weather/@830603/historic?month=12&year=2021)
+- Look at the [history of weather in the place](https://www.timeanddate.com/weather/@830603/historic?month=12&year=2022)
 - Work out transition probabilities between states
 - Write transitions as a matrix $T$
 - Write weather today as a (sparse) vector $\mathbf{w_0}$
