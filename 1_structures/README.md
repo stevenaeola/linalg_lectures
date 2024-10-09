@@ -47,6 +47,8 @@ Things in pink we will look at today
 
 here $\star$ is an abstract operation, like $f$ and $x$ are often abstract functions and values
 
+N.B. $\forall$ is 'for all' and $\exists$ is 'there exists'
+
 ## Examples of groups
 
 - The real numbers with +
