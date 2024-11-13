@@ -138,6 +138,10 @@ $a_{ij}$ is ith component of f-image of jth basis vector
 
 The image of the vector $A\mathbf{x} = A(x_1,\ldots,x_n)$ is
 
+`$$ f ( \sum_{j=1}^n x_j \mathbf{e}_j)$$`
+
+`$$= \sum_{j=1}^n x_j f(\mathbf{e}_j)$$`
+
 `$$= \sum_{j=1}^n x_j \sum_{i=1}^m a_{ij} \mathbf{e}_i$$`
 
 `$$= \sum_{j=1}^n \sum_{i=1}^m a_{ij} x_j \mathbf{e}_i$$`
