@@ -85,6 +85,8 @@ Every vector $\mathbf{v}$ can be represented as a linear combination of basis ve
 
 `$$ = \sum_{i=1}^n a_i f(\mathbf{s}_i)$$`
 
+---
+
 So a _linear map is characterised by its action on basis vectors_
 
 ---
