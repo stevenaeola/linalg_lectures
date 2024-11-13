@@ -71,9 +71,7 @@ $$f(a \\mathbf{v}) = a f(\\mathbf{v}) $$
 
 ## Linear maps and basis vectors
 
-Every vector $\\mathbf{v}$ can be represented as a linear combination of basis vectors $\\mathbf{s}_i \\in S$
-
-If we apply a linear map $f$ then
+Every vector $\\mathbf{v}$ can be represented as a linear combination of basis vectors $\\mathbf{s}_i \\in S$. If we apply a linear map $f$ then
 
 $$f(\\mathbf{v}) = f(\\sum_{i=1}^n a_i \\mathbf{s}_i)$$
 
