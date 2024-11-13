@@ -17,20 +17,20 @@ Things in pink we will look at today
 
 - Is a mathematical structure: sets, operations, axioms
 - Has two sets: scalars $F$ and vectors $V$
-- $V$ forms a commutative group under addition $\mathbf{u}+\mathbf{v} = \mathbf{v}+\mathbf{u}$
+- $V$ forms a commutative group under addition $\\mathbf{u}+\\mathbf{v} = \\mathbf{v}+\\mathbf{u}$
 - $F$ forms a field (different kind of addition)
-- Scalar multiplication $: F \times V \rightarrow V$
+- Scalar multiplication $: F \\times V \\rightarrow V$
 
 
 
 ## Notation conventions
 
-- Write vector variables in bold $\mathbf{u},\mathbf{v} \in V$
-- Alternatives are $\overline{v}, \underline{v}, \overrightarrow{v}$
-- Write scalars plain $a,b \in F$
-- Vectors in $\Bbb{R}^3$ as row $(1,-2,0)$ or column 
+- Write vector variables in bold $\\mathbf{u},\\mathbf{v} \\in V$
+- Alternatives are $\\overline{v}, \\underline{v}, \\overrightarrow{v}$
+- Write scalars plain $a,b \\in F$
+- Vectors in $\\Bbb{R}^3$ as row $(1,-2,0)$ or column 
 
-`$$\left( \begin{array}{c} 1\\-2\\0\end{array} \right)$$`
+$$\\begin{pmatrix} 1\\\\-2\\\\0\\end{pmatrix}$$
 
 
 <!-- .slide: class="fragmented-lists" -->
@@ -39,21 +39,21 @@ Things in pink we will look at today
 
 
 - (commutative group and field axioms for vectors and scalars)
-- $a(b\mathbf{v}) = (ab)\mathbf{v}$
-- $1\mathbf{v} = \mathbf{v}$
-- $a(\mathbf{u} + \mathbf{v}) = a\mathbf{u} + a\mathbf{v}$
-- $(a + b)\mathbf{v} = a\mathbf{v} + b\mathbf{v}$
-- [MML](https://mml-book.github.io/) 2.4.2 only talks about vectors over reals $\Bbb{R}$
+- $a(b\\mathbf{v}) = (ab)\\mathbf{v}$
+- $1\\mathbf{v} = \\mathbf{v}$
+- $a(\\mathbf{u} + \\mathbf{v}) = a\\mathbf{u} + a\\mathbf{v}$
+- $(a + b)\\mathbf{v} = a\\mathbf{v} + b\\mathbf{v}$
+- [MML](https://mml-book.github.io/) 2.4.2 only talks about vectors over reals $\\Bbb{R}$
 
 
 ## Examples of vector spaces
 
 <!-- .slide: class="fragmented-lists" -->
 
-- $\Bbb{R}^3 = \Bbb{R} \times \Bbb{R} \times \Bbb{R}$ over $\Bbb{R}$ 
-  - vectors in $\Bbb{R}^3$, scalars in $\Bbb{R}$
-- $\Bbb{Z}_2^8$ over $\Bbb{Z}_2$
-- polynomials over $\Bbb{R}$
+- $\\Bbb{R}^3 = \\Bbb{R} \\times \\Bbb{R} \\times \\Bbb{R}$ over $\\Bbb{R}$ 
+  - vectors in $\\Bbb{R}^3$, scalars in $\\Bbb{R}$
+- $\\Bbb{Z}_2^8$ over $\\Bbb{Z}_2$
+- polynomials over $\\Bbb{R}$
 - write down an example of scalar multiplication for each of these
 
 
@@ -66,15 +66,15 @@ Things in pink we will look at today
 
 ## Linear combinations
 
-__Defn__ Given vectors $\mathbf{v_1}, \ldots ,\mathbf{v_n}$ and scalars $a_1, \ldots ,a_n$
+__Defn__ Given vectors $\\mathbf{v_1}, \\ldots ,\\mathbf{v_n}$ and scalars $a_1, \\ldots ,a_n$
 
 We can form a _linear combination_
 
-$$ a_1\mathbf{v_1} + \ldots + a_n\mathbf{v_n}$$
+$$ a_1\\mathbf{v_1} + \\ldots + a_n\\mathbf{v_n}$$
 
 Alternatively
 
-$$ \sum_{i=1}^n a_i\mathbf{v_i} $$
+$$ \\sum_{i=1}^n a_i\\mathbf{v_i} $$
 
 
 <!-- .slide: class="fragmented-lists" -->
@@ -84,7 +84,7 @@ $$ \sum_{i=1}^n a_i\mathbf{v_i} $$
 __Defn__ The set of all linear combinations of a set of vectors is called its _span_
 
 
-- Describe (in words) the span of the set $\lbrace(0,1,0),(0,1,2)\rbrace$
+- Describe (in words) the span of the set $\\lbrace(0,1,0),(0,1,2)\\rbrace$
 - N.B. If the field is infinite then the span will be infinite (for a non-empty set)
 
 
@@ -100,9 +100,9 @@ We can equivalently say $S$ spans $V$
 
 ## Linear (in)dependence
 
-- __Defn__ A set of vectors $S=\lbrace \mathbf{s_1},\ldots,\mathbf{s_n}\rbrace$ is _linearly dependent_ if there exists a linear combination
+- __Defn__ A set of vectors $S=\\lbrace \\mathbf{s_1},\\ldots,\\mathbf{s_n}\\rbrace$ is _linearly dependent_ if there exists a linear combination
 
-$$ \sum_{i=1}^n a_i\mathbf{s_i} = \mathbf{0} \text{ and } \exists i.a_i \neq 0$$
+$$ \\sum_{i=1}^n a_i\\mathbf{s_i} = \\mathbf{0} \\text{ and } \\exists i.a_i \\neq 0$$
 
 - In other words, we can write (at least) one of them as a linear combination of the others
 
@@ -115,11 +115,11 @@ $$ \sum_{i=1}^n a_i\mathbf{s_i} = \mathbf{0} \text{ and } \exists i.a_i \neq 0$$
 
 - __Defn__ A subset $S$ of vector space $V$ is a _basis_ for $V$ if $S$ spans $V$ and $S$ is linearly independent
 
-- In other words $S$ is the smallest spanning set we can find for $V$
+- In other words $S$ is is the smallest spanning set we can find for $V$
 
-- The standard/canonical basis for $\Bbb{R}^3$ is $\lbrace (1,0,0), (0,1,0), (0,0,1) \rbrace$
+- The standard/canonical basis for $\\Bbb{R}^3$ is $\\lbrace (1,0,0), (0,1,0), (0,0,1) \\rbrace$
 
-- Sometimes written $\lbrace \hat{\mathbf{i}}, \hat{\mathbf{j}}, \hat{\mathbf{k}}\rbrace$
+- Sometimes written $\\lbrace \\hat{\\mathbf{i}}, \\hat{\\mathbf{j}}, \\hat{\\mathbf{k}}\\rbrace$
 
 
 <!-- .slide: class="fragmented-lists" -->
@@ -128,7 +128,7 @@ $$ \sum_{i=1}^n a_i\mathbf{s_i} = \mathbf{0} \text{ and } \exists i.a_i \neq 0$$
 
 - __Defn__ The _dimension_ of a vector space is the cardinality (size) of its basis
 
-- The dimension of $\Bbb{R}^3$ is 3
+- The dimension of $\\Bbb{R}^3$ is 3
 
 - We can prove that dimension is _well defined_ i.e. it is the same however you calculate
 
