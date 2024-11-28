@@ -39,7 +39,7 @@ We will think about lengths of vectors (norms) and angles between vectors
 
 If $\mathbf{x} = (x_1,\ldots,x_n) \in \Bbb{R}^n$ then the _Euclidean norm_ is defined as
 
-`$$ || \mathbf{x} ||_2 = \sqrt {\sum_i x_i^2 } $$`
+`$$ \Vert \mathbf{x} \Vert_2 = \sqrt {\sum_i x_i^2 } $$`
 
 It is often shortened to 
 
