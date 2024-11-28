@@ -19,6 +19,8 @@ Things in pink we will look at today
 
 ([Oxford English Dictionary](https://www.oed.com/view/Entry/77794))
 
+---
+
 From land (geo-) survey/measure (metry)
 
 We will think about lengths of vectors (norms) and angles between vectors
@@ -159,7 +161,7 @@ If we change the definition of 'parallel' we get [hyperbolic geometry](https://e
 
 E.g. hyperbolic [half-plane](https://en.wikipedia.org/wiki/Poincar%C3%A9_half-plane_model) or [disk](https://en.wikipedia.org/wiki/Poincar%C3%A9_disk_model)
 
-These occur in [nature and art](https://web.colby.edu/thegeometricviewpoint/author/aredhunt/) and [crochet](https://adepratt.weebly.com/uploads/3/7/7/1/37716215/iff-crochetreef-howtohandout.pdf)
+These occur in [nature and art](https://web.colby.edu/thegeometricviewpoint/2016/12/21/tessellations-of-the-hyperbolic-plane-and-m-c-escher/) and [crochet](https://adepratt.weebly.com/uploads/3/7/7/1/37716215/iff-crochetreef-howtohandout.pdf)
 
 ---
 
