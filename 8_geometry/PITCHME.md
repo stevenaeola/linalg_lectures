@@ -55,7 +55,7 @@ A unit vector has length (norm) 1
 
 Any non-zero vector $\mathbf{x}$ can be used to define a unit vector in the direction of $\mathbf{x}$
 
-`$$\mathbf{\hat{x}} = \frac{1}{\| \mathbf{x} \|_2} \mathbf{x}$$`
+`$$\mathbf{\hat{x}} = \frac{1}{\Vert \mathbf{x} \Vert_2} \mathbf{x}$$`
 
 ---
 
@@ -111,7 +111,7 @@ Is this a norm?
 
 Given $p \in \Bbb{R}^{+}$ we can define the _p-norm_ $\ell_p$ on $\Bbb{R}^n$ as
 
-`$$\| \mathbf{x} \|_p = \sqrt[p]{\sum_i |x_i|^p}$$`
+`$$\Vert \mathbf{x} \Vert_p = \sqrt[p]{\sum_i |x_i|^p}$$`
 
 - $\ell_1$ is the Manhattan norm
 - $\ell_2$ is the Euclidean norm
@@ -125,7 +125,7 @@ What happens if $p \rightarrow \infty$
 
 Large terms dominate so $\ell_\infty$ is
 
-`$$\| \mathbf{x} \|_{\infty} = max(|x_1|,\ldots,|x_n|)$$`
+`$$\Vert \mathbf{x} \Vert_{\infty} = max(|x_1|,\ldots,|x_n|)$$`
 
 This is a norm (check properties)
 
@@ -135,11 +135,11 @@ What happens if $p \rightarrow 0$?
 
 `$$\lim_{p\to 0} x^p = 1$$`
 
-`$$\lim_{p\to 0} \| \mathbf{x} \|_p = \infty$$`
+`$$\lim_{p\to 0} \Vert \mathbf{x} \Vert_p = \infty$$`
 
 But (assuming $0^0=0$), can define $\ell_0$ as
 
-`$$ \| (x_1,\ldots,x_n) \|_0= |x_0|^0 + \ldots + |x_n|^0 $$`
+`$$ \Vert (x_1,\ldots,x_n) \Vert_0= |x_0|^0 + \ldots + |x_n|^0 $$`
 
 i.e. The number of locations in which $\mathbf{x} \neq 0$
 
@@ -169,7 +169,7 @@ These occur in [nature and art](https://web.colby.edu/thegeometricviewpoint/2016
 
 Given vectors $\mathbf{a}, \mathbf{b}$ define
 
-`$$\mathbf{a} \cdot \mathbf{b} = \| \mathbf{a} \|_2 \| \mathbf{b} \|_2 \cos \theta$$`
+`$$\mathbf{a} \cdot \mathbf{b} = \Vert \mathbf{a} \Vert_2 \Vert \mathbf{b} \Vert_2 \cos \theta$$`
 
 Where $\theta$ is the angle between $\mathbf{a}$ and $\mathbf{b}$
 
@@ -186,7 +186,7 @@ Also referred to as inner product, scalar product
 - $(\mathbf{a_1} + \mathbf{a_2})\cdot \mathbf{b} = \mathbf{a_1} \cdot \mathbf{b} + \mathbf{a_2} \cdot \mathbf{b}$
 - $\mathbf{a} \cdot \mathbf{b} = 0$ if only if they are orthogonal or one is zero
 
-`$$\mathbf{a} \cdot \mathbf{a} = \| \mathbf{a} \|_2^2$$`
+`$$\mathbf{a} \cdot \mathbf{a} = \Vert \mathbf{a} \Vert_2^2$$`
 
 ---
 
