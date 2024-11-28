@@ -38,7 +38,7 @@ $$ \Vert \mathbf{x} \Vert_2 = \sqrt {\sum_i x_i^2 } $$
 
 It is often shortened to 
 
-$$ || \mathbf{x} || $$
+$$ \Vert \mathbf{x} \Vert $$
 
 Euclidean is the 'default' norm
 

@@ -43,7 +43,7 @@ If $\mathbf{x} = (x_1,\ldots,x_n) \in \Bbb{R}^n$ then the _Euclidean norm_ is de
 
 It is often shortened to 
 
-`$$ || \mathbf{x} || $$`
+`$$ \Vert \mathbf{x} \Vert $$`
 
 Euclidean is the 'default' norm
 
