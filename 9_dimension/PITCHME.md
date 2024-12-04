@@ -14,20 +14,18 @@ COMP1021 MCS: Linear algebra
 
 - Things in pink we covered last time i.e. everything
 
-- Questions? Assignment?
-
 ---
 
 {{{APPEAR}}}
 
 ## Row rank = Column rank
 
-- Discussed last time
+- Discussed two lectures ago
 - IMPORTANT RESULT
 - Dimension of $f(X)$ is the rank of the matrix for $f$
 - Can calculate rank by Gaussian elimination
   - Count non-zero rows in row-echelon form of non-augmented matrix
-- Matrix has _full rank_ if the rank is as high as it can be (max \#rows, \#columns)
+- Matrix has _full rank_ if the rank is as high as it can be (min \#rows, \#columns)
 
 ---
 
@@ -87,6 +85,7 @@ Many good reasons
 
 - [Visualisation](https://www.nature.com/articles/s42003-022-03628-x)
 - [Compression](https://www.sciencedirect.com/science/article/pii/S1877050917311900) of images and audio
+- [Data representation](https://aclanthology.org/N13-1090.pdf) of text as vectors
 - Speeding up machine learning
 - Reducing overfitting/eliminating noise
 
