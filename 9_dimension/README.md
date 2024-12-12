@@ -13,27 +13,25 @@ COMP1021 MCS: Linear algebra
 
 - Things in pink we covered last time i.e. everything
 
-- Questions? Assignment?
-
 
 <!-- .slide: class="fragmented-lists" -->
 
 ## Row rank = Column rank
 
-- Discussed last time
+- Discussed two lectures ago
 - IMPORTANT RESULT
 - Dimension of $f(X)$ is the rank of the matrix for $f$
 - Can calculate rank by Gaussian elimination
   - Count non-zero rows in row-echelon form of non-augmented matrix
-- Matrix has _full rank_ if the rank is as high as it can be (max \#rows, \#columns)
+- Matrix has _full rank_ if the rank is as high as it can be (min \\#rows, \\#columns)
 
 
 ## Kernel of a linear map
 
-- if $f:X \rightarrow Y$ is a linear map
-- _kernel_  or _null space_ of $f$ is the set of vectors that map to $\mathbf{0}$ i.e. 
+- if $f:X \\rightarrow Y$ is a linear map
+- _kernel_  or _null space_ of $f$ is the set of vectors that map to $\\mathbf{0}$ i.e. 
 
-$$\{ \mathbf{x} \in X.f(\mathbf{x}) = \mathbf{0} \}$$
+$$\\{ \\mathbf{x} \\in X.f(\\mathbf{x}) = \\mathbf{0} \\}$$
 
 - The kernel forms a vector space: all linear combinations of kernel elements are in the kernel
 
@@ -42,10 +40,10 @@ $$\{ \mathbf{x} \in X.f(\mathbf{x}) = \mathbf{0} \}$$
 
 ## No inverse of non-square matrices
 
-Assume $f:X \rightarrow Y$ is a linear map
+Assume $f:X \\rightarrow Y$ is a linear map
 
 Can an inverse exist if $dim(X) < dim(Y)$?
- - $dim(f(X)) \leq dim(X)$, so $dim(f(X)) < dim(Y)$
+ - $dim(f(X)) \\leq dim(X)$, so $dim(f(X)) < dim(Y)$
  - Some elements of $Y$ are not in $f(X)$
  - No
 
@@ -55,14 +53,14 @@ Can an inverse exist if $dim(X) < dim(Y)$?
 Can an inverse exist if $dim(X) > dim(Y)$?
   - The columns of the matrix cannot be linearly independent
   - So there is a non-zero vector that maps to zero (kernel is non-trivial)
-  - So any inverse cannot be unique because $f(\mathbf{x} + \mathbf{k}) = f(\mathbf{x})$ if $\mathbf{k}$ is in the kernel
+  - So any inverse cannot be unique because $f(\\mathbf{x} + \\mathbf{k}) = f(\\mathbf{x})$ if $\\mathbf{k}$ is in the kernel
   - No
 
 
 ## Rank-nullity theorem
 
 Define nullity as the dimension of the kernel
-- Given a linear map on vector spaces $T:V \rightarrow W$
+- Given a linear map on vector spaces $T:V \\rightarrow W$
 - If $V$ has finite dimension then
 
 $$Rank(T) + Nullity(T) = dim(V)$$
@@ -80,6 +78,7 @@ Many good reasons
 
 - [Visualisation](https://www.nature.com/articles/s42003-022-03628-x)
 - [Compression](https://www.sciencedirect.com/science/article/pii/S1877050917311900) of images and audio
+- [Data representation](https://aclanthology.org/N13-1090.pdf) of text as vectors
 - Speeding up machine learning
 - Reducing overfitting/eliminating noise
 
