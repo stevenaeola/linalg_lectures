@@ -2,62 +2,62 @@ graph TB
     op[operation]:::previous -- can have --> closure:::previous
     op -- can have --> identity:::previous
     op -- can have --> associativity:::previous
-    op -- can have --> commutativity:::previous
-    op -- can have --> distributivity:::previous
+    op -- can have --> commutativity:::today
+    op -- can have --> distributivity:::today
     op -- can have --> inverse:::previous
 
 
-    scalar -- forms --> field
+    scalar -- forms --> field:::today
 
-    scalar:::previous -- can scale --> vector:::previous
+    scalar:::today -- can scale --> vector:::today
 
-    vector:::previous -- forms --> group
+    vector -- forms --> group:::previous
     vector -- pairs have --> dp[dot product]
-    dp:::previous -- defines --> orthogonal:::previous
+    dp -- defines --> orthogonal
     vector -- can be --> normalised
-    normalised -- with --> norm:::previous
-    vs -- has --> axioms
+    normalised -- with --> norm
+    vs -- has --> axioms:::previous
 
     vs -- has set of --> scalar
-    vs -- allows --> lincomb[linear combination]:::previous
-    vs[vector space]:::previous -- has --> vectorset:::previous
+    vs -- allows --> lincomb[linear combination]:::today
+    vs[vector space]:::today -- has --> vectorset:::today
 
-    vs -- has --> basis:::previous
+    vs -- has --> basis
 
-    vs -- has --> dimension:::previous
+    vs -- has --> dimension
 
     vectorset -- contains --> vector
     basis -- spans --> vs
     lincomb -- of --> scalar
     lincomb -- of --> vectorset
-    field:::previous -- has --> axioms
+    field:::today -- has --> axioms
     group:::previous -- has --> axioms
     field -- includes --> group
 
     basis -- is a --> vectorset
     basis -- size defines --> dimension
     basis -- can be -->orthonormal
-    orthonormal:::previous -- requires --> normalised:::previous
+    orthonormal -- requires --> normalised
 
-    orthonormal -- requires --> orthogonal:::previous
+    orthonormal -- requires --> orthogonal
     dp -- defines a --> norm
 
-    lm[linear map]:::previous -- acts on --> vector
-    matrix:::previous -- represents --> lm
-    matrix -- has --> determinant:::previous
+    lm[linear map] -- acts on --> vector
+    matrix -- represents --> lm
+    matrix -- has --> determinant
     determinant -- nonzero implies --> inverse
-    matrix -- can represent --> lineq[system of linear equations]:::previous
+    matrix -- can represent --> lineq[system of linear equations]
     ge[Gaussian elimination] -- acts on --> matrix
     ge -- reduces matrix to --> ref[row-echelon form]
-    matrix -- can have --> ref:::previous
-    matrix -- can be --> diagonal:::previous
+    matrix -- can have --> ref
+    matrix -- can be --> diagonal
 
     vectorset[set of vectors]
     vectorset -- can have --> indep[linear independence]
-    basis -- has --> indep:::previous
-    lm -- has --> rank:::previous 
-    lm -- has --> kernel:::today
-    ge:::previous  -- can find --> inverse
+    basis -- has --> indep
+    lm -- has --> rank
+    lm -- has --> kernel
+    ge  -- can find --> inverse
     axioms:::previous -- govern --> op
 
 classDef today fill:#f9f,stroke:#000,stroke-width:4px;
