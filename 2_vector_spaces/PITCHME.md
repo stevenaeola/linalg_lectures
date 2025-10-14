@@ -149,4 +149,5 @@ We can equivalently say $S$ spans $V$
 - Vector space includes a group of vectors and a field of scalars, with axioms governing scalar multiplication
 - We can form linear combinations of vectors through scaling and adding
 - All of the linear combinations of a set is called the span
+- A set of vectors is called a spanning set if its span includes the whole vector space
 
