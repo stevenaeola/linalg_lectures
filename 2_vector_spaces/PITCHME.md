@@ -9,7 +9,7 @@ COMP1021 Maths for Computer Science
 
 ## Concept map
 
-See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/f7807997e745d8d48951b55c5dbeb154dd92149b/concepts.mmd)
+See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/6b85f75219cb74afa662c8e9b7d978f25269e50a/concepts.mmd)
 
 Things in pink we will look at today
 
