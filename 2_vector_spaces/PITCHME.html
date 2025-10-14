@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="../reveal.js-master/dist/reset.css">
+		<link rel="stylesheet" href="../reveal.js-master/dist/reveal.css">
+		<link rel="stylesheet" href="../reveal.js-master/dist/theme/simple.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="../reveal.js-master/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+<section data-markdown>
+<textarea data-template>
+<!-- .slide: data-background="#6A246D" -->
+
+
+# Linear algebra: vector spaces
+
+COMP1021 Maths for Computer Science
+
+---
+
+## Concept map
+
+See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/f7807997e745d8d48951b55c5dbeb154dd92149b/concepts.mmd)
+
+Things in pink we will look at today
+
+---
+
+
+## More reading/watching
+
+- Videos one and two in the series [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) by [3blue1brown](https://www.3blue1brown.com/)
+- Chapter 1 and section 2.4 of [Maths for machine learning](https://mml-book.github.io/)
+
+---
+
+## Structures (equipped) with multiple operations
+
+So far we have ignored multiplication
+- A _field_ has two operations, usually written $+$ and $\cdot$
+- Call them 'addition' and 'multiplication'
+- In programming we are used to $+$ meaning different things
+
+---
+
+## Field axioms
+
+- Look at the [classic definition of a field](https://en.wikipedia.org/wiki/Field_(mathematics)#Classic_definition)
+- What terms are used that we haven't seen yet?
+- Is a field also a group?
+- Can every group be turned into a field?
+- Can a field be finite?
+
+---
+
+## Structures with multiple sets
+
+- Vectors are different from numbers (scalars)
+- We can add vectors
+- We can scale vectors (multiply)
+- We can add scalars
+- Can we multiply vectors?
+
+---
+
+<!-- .slide: class="fragmented-lists" -->
+
+## Vector space
+
+- Is a mathematical structure: sets, operations, axioms
+- Has two sets: scalars $F$ and vectors $V$
+- $V$ forms a commutative group under addition $\mathbf{u}+\mathbf{v} = \mathbf{v}+\mathbf{u}$
+- $F$ forms a field (different kind of addition)
+- Scalar multiplication $: F \times V \rightarrow V$
+
+---
+
+## Examples of vector spaces
+
+<!-- .slide: class="fragmented-lists" -->
+
+- $\Bbb{R}^3 = \Bbb{R} \times \Bbb{R} \times \Bbb{R}$ over $\Bbb{R}$ 
+  - vectors in $\Bbb{R}^3$, scalars in $\Bbb{R}$
+- $\Bbb{Z}_2^8$ over $\Bbb{Z}_2$
+- polynomials over $\Bbb{R}$
+- write down an example of scalar multiplication for each of these
+
+---
+
+## Notation conventions
+
+- Write vector variables in bold $\mathbf{u},\mathbf{v} \in V$
+- Alternatives are $\overline{v}, \underline{v}, \overrightarrow{v}$
+- Write scalars plain $a,b \in F$
+- Vectors in $\Bbb{R}^3$ as row $(1,-2,0)$ or column 
+
+`$$\begin{pmatrix} 1\\-2\\0\end{pmatrix}$$`
+
+---
+
+<!-- .slide: class="fragmented-lists" -->
+
+## Vector Space Axioms
+
+- (commutative group and field axioms for vectors and scalars)
+- $a(b\mathbf{v}) = (ab)\mathbf{v}$
+- $1\mathbf{v} = \mathbf{v}$
+- $a(\mathbf{u} + \mathbf{v}) = a\mathbf{u} + a\mathbf{v}$
+- $(a + b)\mathbf{v} = a\mathbf{v} + b\mathbf{v}$
+- [MML](https://mml-book.github.io/) 2.4.2 only talks about vectors over reals $\Bbb{R}$
+
+---
+
+[Linear combination, span, and basis vectors](https://youtu.be/k7RM-ot2NWY?si=Ey2VR4H-qjlPk1fS)
+
+---
+
+## Linear combinations
+
+__Defn__ Given vectors $\mathbf{v_1}, \ldots ,\mathbf{v_n}$ and scalars $a_1, \ldots ,a_n$
+
+We can form a _linear combination_
+
+$$ a_1\mathbf{v_1} + \ldots + a_n\mathbf{v_n}$$
+
+Alternatively
+
+$$ \sum_{i=1}^n a_i\mathbf{v_i} $$
+
+---
+
+<!-- .slide: class="fragmented-lists" -->
+
+## Span
+
+__Defn__ The set of all linear combinations of a set of vectors is called its _span_
+
+
+- Describe (in words) the span of the set $\lbrace(0,1,0),(0,1,2)\rbrace$
+- N.B. If the field is infinite then the span will be infinite (for a non-empty set)
+
+
+---
+
+## Spanning set
+
+__Defn__ A set of vectors $S$ is a _spanning set_ for a vector space $(F,V)$ if $span(S)=V$
+
+We can equivalently say $S$ spans $V$
+
+---
+
+---
+
+<!-- .slide: class="fragmented-lists" -->
+
+## Summary
+
+- Fields have one set and two operations, addition and multiplication, like the real numbers
+- Vector space includes a group of vectors and a field of scalars, with axioms governing scalar multiplication
+- We can form linear combinations of vectors through scaling and adding
+- All of the linear combinations of a set is called the span
+
+
+</textarea>
+</section>
+			</div>
+		</div>
+
+		<script src="../reveal.js-master/dist/reveal.js"></script>
+
+		<script src="../reveal.js-master/plugin/notes/notes.js"></script>
+		<script src="../reveal.js-master/plugin/markdown/markdown.js"></script>
+		<script src="../reveal.js-master/plugin/highlight/highlight.js"></script>
+		<script src="../reveal.js-master/plugin/math/math.js"></script>
+
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax3 ]
+			});
+
+			// from https://github.com/hakimel/reveal.js/issues/1211
+			
+			Reveal.addEventListener("ready", function addFragmentToLists() {
+  for (const listItem of document.querySelectorAll(".fragmented-lists li")) {
+    listItem.classList.add("fragment");
+  }
+});
+		</script>
+	</body>
+</html>
