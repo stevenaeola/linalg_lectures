@@ -7,9 +7,9 @@ graph TB
     op -- can have --> inverse:::previous
 
 
-    scalar -- forms --> field:::today
+    scalar -- forms --> field:::previous
 
-    scalar:::today -- can scale --> vector:::previous
+    scalar:::previous -- can scale --> vector:::previous
 
     vector -- forms --> group:::previous
     vector -- pairs have --> dp[dot product]
