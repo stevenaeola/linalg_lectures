@@ -9,7 +9,7 @@ graph TB
 
     scalar -- forms --> field:::today
 
-    scalar:::today -- can scale --> vector:::today
+    scalar:::today -- can scale --> vector:::previous
 
     vector -- forms --> group:::previous
     vector -- pairs have --> dp[dot product]
@@ -53,7 +53,7 @@ graph TB
     matrix -- can be --> diagonal
 
     vectorset[set of vectors]
-    vectorset -- can have --> indep[linear independence]
+    vectorset -- can have --> indep[linear independence]:::today
     basis -- has --> indep
     lm -- has --> rank
     lm -- has --> kernel
