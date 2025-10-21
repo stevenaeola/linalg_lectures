@@ -1,19 +1,19 @@
 <!-- .slide: data-background="#6A246D" -->
 
-## Vector spaces, linear combinations
+## Linear combinations, linear dependence and basis
 
 COMP1021 MCS: Linear algebra
 
 
 ## Previously
 
-See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/c3cac59ea10b52ad14e8ca65e511f1ab6c652dee/concepts.mmd)
+See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/f5e0674b4db453ca09336ee0138e9aac403456a0/concepts.mmd)
 
 Things in pink we will look at today
 
 <!-- .slide: class="fragmented-lists" -->
 
-## Vector space
+## (from last time) Vector space
 
 - Is a mathematical structure: sets, operations, axioms
 - Has two sets: scalars $F$ and vectors $V$
@@ -22,20 +22,9 @@ Things in pink we will look at today
 - Scalar multiplication $: F \\times V \\rightarrow V$
 
 
-
-## Notation conventions
-
-- Write vector variables in bold $\\mathbf{u},\\mathbf{v} \\in V$
-- Alternatives are $\\overline{v}, \\underline{v}, \\overrightarrow{v}$
-- Write scalars plain $a,b \\in F$
-- Vectors in $\\Bbb{R}^3$ as row $(1,-2,0)$ or column 
-
-$$\\begin{pmatrix} 1\\\\-2\\\\0\\end{pmatrix}$$
-
-
 <!-- .slide: class="fragmented-lists" -->
 
-## Vector Space Axioms
+## (from last time) Vector Space Axioms
 
 
 - (commutative group and field axioms for vectors and scalars)
@@ -43,10 +32,9 @@ $$\\begin{pmatrix} 1\\\\-2\\\\0\\end{pmatrix}$$
 - $1\\mathbf{v} = \\mathbf{v}$
 - $a(\\mathbf{u} + \\mathbf{v}) = a\\mathbf{u} + a\\mathbf{v}$
 - $(a + b)\\mathbf{v} = a\\mathbf{v} + b\\mathbf{v}$
-- [MML](https://mml-book.github.io/) 2.4.2 only talks about vectors over reals $\\Bbb{R}$
 
 
-## Examples of vector spaces
+## (from last time) Examples of vector spaces
 
 <!-- .slide: class="fragmented-lists" -->
 
@@ -141,7 +129,6 @@ $$ \\sum_{i=1}^n a_i\\mathbf{s_i} = \\mathbf{0} \\text{ and } \\exists i.a_i \\n
 
 ## Summary
 
-- Vector space includes a group vectors and a field of scalars, with axioms governing scalar multiplication
 - We can form linear combinations of vectors through scaling and adding
 - All of the linear combinations of a set is called the span
 - Vectors are linearly dependent if there is a non-zero linear combination of them that equals zero

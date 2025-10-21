@@ -1,6 +1,6 @@
 {{{PURPLESLIDE}}}
 
-## Vector spaces, linear combinations
+## Linear combinations, linear dependence and basis
 
 COMP1021 MCS: Linear algebra
 
@@ -8,7 +8,7 @@ COMP1021 MCS: Linear algebra
 
 ## Previously
 
-See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/c3cac59ea10b52ad14e8ca65e511f1ab6c652dee/concepts.mmd)
+See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/f5e0674b4db453ca09336ee0138e9aac403456a0/concepts.mmd)
 
 Things in pink we will look at today
 
@@ -25,13 +25,9 @@ Things in pink we will look at today
 
 ---
 
-
-
----
-
 {{{APPEAR}}}
 
-## Vector Space Axioms
+## (from last time) Vector Space Axioms
 
 
 - (commutative group and field axioms for vectors and scalars)
@@ -42,7 +38,7 @@ Things in pink we will look at today
 
 ---
 
-## Examples of vector spaces
+## (from last time) Examples of vector spaces
 
 {{{APPEAR}}}
 
