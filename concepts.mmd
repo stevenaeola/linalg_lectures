@@ -20,17 +20,17 @@ graph TB
 
     vs -- has set of --> scalar
     vs -- allows --> lincomb[linear combination]:::today
-    vs[vector space]:::today -- has --> vectorset:::today
+    vs[vector space]:::previous -- has --> vectorset:::previous
 
-    vs -- has --> basis
+    vs -- has --> basis:::today
 
-    vs -- has --> dimension
+    vs -- has --> dimension:::today
 
     vectorset -- contains --> vector
-    basis -- spans --> vs
-    lincomb -- of --> scalar
+    basis -- spans --> vs:::today
+    lincomb:::today -- of --> scalar
     lincomb -- of --> vectorset
-    field:::today -- has --> axioms
+    field:::previous -- has --> axioms
     group:::previous -- has --> axioms
     field -- includes --> group
 
