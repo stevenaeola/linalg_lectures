@@ -104,7 +104,4 @@ So far we have ignored multiplication
 
 - Fields have one set and two operations, addition and multiplication, like the real numbers
 - Vector space includes a group of vectors and a field of scalars, with axioms governing scalar multiplication
-- We can form linear combinations of vectors through scaling and adding
-- All of the linear combinations of a set is called the span
-- A set of vectors is called a spanning set if its span includes the whole vector space
 
