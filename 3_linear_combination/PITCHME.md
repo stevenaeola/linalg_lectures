@@ -15,7 +15,7 @@ Things in pink we will look at today
 ---
 {{{APPEAR}}}
 
-## Vector space
+## (from last time) Vector space
 
 - Is a mathematical structure: sets, operations, axioms
 - Has two sets: scalars $F$ and vectors $V$
@@ -26,14 +26,6 @@ Things in pink we will look at today
 ---
 
 
-## Notation conventions
-
-- Write vector variables in bold $\mathbf{u},\mathbf{v} \in V$
-- Alternatives are $\overline{v}, \underline{v}, \overrightarrow{v}$
-- Write scalars plain $a,b \in F$
-- Vectors in $\Bbb{R}^3$ as row $(1,-2,0)$ or column 
-
-`$$\begin{pmatrix} 1\\-2\\0\end{pmatrix}$$`
 
 ---
 
@@ -47,7 +39,6 @@ Things in pink we will look at today
 - $1\mathbf{v} = \mathbf{v}$
 - $a(\mathbf{u} + \mathbf{v}) = a\mathbf{u} + a\mathbf{v}$
 - $(a + b)\mathbf{v} = a\mathbf{v} + b\mathbf{v}$
-- [MML](https://mml-book.github.io/) 2.4.2 only talks about vectors over reals $\Bbb{R}$
 
 ---
 
@@ -154,7 +145,6 @@ $$ \sum_{i=1}^n a_i\mathbf{s_i} = \mathbf{0} \text{ and } \exists i.a_i \neq 0$$
 
 ## Summary
 
-- Vector space includes a group vectors and a field of scalars, with axioms governing scalar multiplication
 - We can form linear combinations of vectors through scaling and adding
 - All of the linear combinations of a set is called the span
 - Vectors are linearly dependent if there is a non-zero linear combination of them that equals zero

@@ -98,49 +98,6 @@ So far we have ignored multiplication
 - $(a + b)\mathbf{v} = a\mathbf{v} + b\mathbf{v}$
 - [MML](https://mml-book.github.io/) 2.4.2 only talks about vectors over reals $\Bbb{R}$
 
----
-
-[Linear combination, span, and basis vectors](https://youtu.be/k7RM-ot2NWY?si=Ey2VR4H-qjlPk1fS)
-
----
-
-## Linear combinations
-
-__Defn__ Given vectors $\mathbf{v_1}, \ldots ,\mathbf{v_n}$ and scalars $a_1, \ldots ,a_n$
-
-We can form a _linear combination_
-
-$$ a_1\mathbf{v_1} + \ldots + a_n\mathbf{v_n}$$
-
-Alternatively
-
-$$ \sum_{i=1}^n a_i\mathbf{v_i} $$
-
----
-
-{{{APPEAR}}}
-
-## Span
-
-__Defn__ The set of all linear combinations of a set of vectors is called its _span_
-
-
-- Describe (in words) the span of the set $\lbrace(0,1,0),(0,1,2)\rbrace$
-- N.B. If the field is infinite then the span will be infinite (for a non-empty set)
-
-
----
-
-## Spanning set
-
-__Defn__ A set of vectors $S$ is a _spanning set_ for a vector space $(F,V)$ if $span(S)=V$
-
-We can equivalently say $S$ spans $V$
-
----
-
----
-
 {{{APPEAR}}}
 
 ## Summary
