@@ -11,14 +11,6 @@ See the [concept diagram](https://github.com/stevenaeola/linalg_lectures/blob/d8
 
 Things in pink we will look at today (and next time)
 
-
-## Questions
-
-<!-- .slide: class="fragmented-lists" -->
-
-- From the practicals last week?
-- From <https://pollev.com/stevenaeola>
-
 <!-- .slide: class="fragmented-lists" -->
 
 ## Basis representation
@@ -200,5 +192,3 @@ Check your answer example 2.3 from [MML book](https://mml-book.github.io/book/mm
 - [MML book](https://mml-book.github.io/book/mml-book.pdf) section 2.2
 
 Next time: Determinants and inverses
-
-Practicals: Span, independence, basis, linear maps, matrices
