@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mustache ../templates/reveal-config.json PITCHME.md | sed '/^---/ d' | sed "s/\`\\$\\$/\\$\\$/g"| sed "s/\\$\\$\`/\\$\\$/g"> README.md
+mustache ../templates/reveal-config.json PITCHME.md | sed '/^---/ d' | sed "s/\`\\$\\$/\\$\\$/g"| sed "s/\\$\\$\`/\\$\\$/g" | sed 's/\\/\\\\/g' > README.md
 
 PATHEND=$(pwd | rev | cut -d'/' -f-2 | rev)
 
