@@ -27,7 +27,7 @@ Things in pink we will look at today (and next time)
 ## Canonical (standard) basis
 
 - This is kind of obvious for the _canonical basis_ for $\Bbb{R}^n$ 
-$$\lbrace \mathbf{e}_i: i \leq 1 \leq n \rbrace$$
+$$\lbrace \mathbf{e}_i: 1 \leq i \leq n \rbrace$$
 - Where $\mathbf{e}_i$ is the vector with a 1 in the ith position and 0 elsewhere
 - In 3D sometimes referred to as $\mathbf{e}_x,\mathbf{e}_y,\mathbf{e}_z$ or $\mathbf{i},\mathbf{j},\mathbf{k}$
 
