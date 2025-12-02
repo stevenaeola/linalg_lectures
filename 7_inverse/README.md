@@ -138,7 +138,7 @@ $$
 - Under a linear map $f: X \\rightarrow Y, f(a\\mathbf{x} + b \\mathbf{y}) = a f(\\mathbf{x}) + b f(\\mathbf{y})$
 - $f(X)$ is the span of of the columns, called the _column space_
 - Define the _column rank_ as the dimension of the column space
-- Column rank = \\# linearly independent columns
+- Column rank = num linearly independent columns
 
 
 ## Row rank
@@ -146,7 +146,7 @@ $$
 - Define row space and row rank similarly
 - Define _row space_ as the span of all the row vectors
 - Define _row rank_ as the dimension of the row space
-- Row rank = \\# linearly independent rows 
+- Row rank = num linearly independent rows 
 
 
 
@@ -172,7 +172,7 @@ Proof (sketch)
 - Dimension of $f(X)$ is the rank of the matrix for $f$
 - Can calculate rank by Gaussian elimination
   - Count non-zero rows in row-echelon form of non-augmented matrix
-- Matrix has _full rank_ if the rank is as high as it can be (max \\#rows, \\#columns)
+- Matrix has _full rank_ if the rank is as high as it can be min(num rows, num columns)
 
 
 ## Kernel of a linear map
@@ -205,6 +205,32 @@ Can an inverse exist if $dim(X) > dim(Y)$?
   - So any inverse cannot be unique because $f(\\mathbf{x} + \\mathbf{k}) = f(\\mathbf{x})$ if $\\mathbf{k}$ is in the kernel
   - No
 
+
+
+## Rank-nullity theorem
+
+Define nullity as the dimension of the kernel
+- Given a linear map on vector spaces $T:V \\rightarrow W$
+- If $V$ has finite dimension then
+
+$$Rank(T) + Nullity(T) = dim(V)$$
+
+Note that $dim(W)$ is not in the formula
+
+Proof hint: Extend a basis for the kernel to a basis for $V$
+
+
+<!-- .slide: class="fragmented-lists" -->
+
+## Reducing dimensionality (not needed for assignment)
+
+Many good reasons
+
+- [Visualisation](https://www.nature.com/articles/s42003-022-03628-x)
+- [Compression](https://www.sciencedirect.com/science/article/pii/S1877050917311900) of images and audio
+- [Data representation](https://aclanthology.org/N13-1090.pdf) of text as vectors
+- Speeding up machine learning
+- Reducing overfitting/eliminating noise
 
 <!-- .slide: data-background="#a5c8d0" -->
 
