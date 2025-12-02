@@ -257,6 +257,8 @@ Many good reasons
 
 {{{BLUESLIDE}}}
 
+---
+
 ## More
 
 - [3B1B Chapter 7: Inverse matrices, column space and null space](https://www.youtube.com/watch?v=uQhTuRlWMxw)
