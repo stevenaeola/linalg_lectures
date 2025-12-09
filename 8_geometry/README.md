@@ -32,13 +32,13 @@ We will think about lengths of vectors (norms) and angles between vectors
 - In 3D $l^2 = x_1^2 + x_2^2 + x_3^2$
 
 
-If $\mathbf{x} = (x_1,\ldots,x_n) \in \Bbb{R}^n$ then the _Euclidean norm_ is defined as
+If $\\mathbf{x} = (x_1,\\ldots,x_n) \\in \\Bbb{R}^n$ then the _Euclidean norm_ is defined as
 
-$$ \Vert \mathbf{x} \Vert_2 = \sqrt {\sum_i x_i^2 } $$
+$$ \\Vert \\mathbf{x} \\Vert_2 = \\sqrt {\\sum_i x_i^2 } $$
 
 It is often shortened to 
 
-$$ \Vert \mathbf{x} \Vert $$
+$$ \\Vert \\mathbf{x} \\Vert $$
 
 Euclidean is the 'default' norm
 
@@ -47,29 +47,29 @@ Euclidean is the 'default' norm
 
 A unit vector has length (norm) 1
 
-Any non-zero vector $\mathbf{x}$ can be used to define a unit vector in the direction of $\mathbf{x}$
+Any non-zero vector $\\mathbf{x}$ can be used to define a unit vector in the direction of $\\mathbf{x}$
 
-$$\mathbf{\hat{x}} = \frac{1}{\Vert \mathbf{x} \Vert_2} \mathbf{x}$$
+$$\\mathbf{\\hat{x}} = \\frac{1}{\\Vert \\mathbf{x} \\Vert_2} \\mathbf{x}$$
 
 
 <!-- .slide: class="fragmented-lists" -->
 
 ## Generalised norms
 
-Given a vector space $X$ a function $d:X \rightarrow \Bbb{R}$ is a _norm_ if it satisfies
-- Triangle inequality. $d(\mathbf{x} + \mathbf{y}) \leq d(\mathbf{x}) + d(\mathbf{y})$ for all $\mathbf{x},\mathbf{y} \in X$
-- Absolute homogeneity. $d(s\mathbf{x}) = |s|d(\mathbf{x})$ for all $\mathbf{x} \in X$ and scalars $s$
-- Positive definite. If $d(\mathbf{x}) = 0$ then $\mathbf{x} = \mathbf{0}$
+Given a vector space $X$ a function $d:X \\rightarrow \\Bbb{R}$ is a _norm_ if it satisfies
+- Triangle inequality. $d(\\mathbf{x} + \\mathbf{y}) \\leq d(\\mathbf{x}) + d(\\mathbf{y})$ for all $\\mathbf{x},\\mathbf{y} \\in X$
+- Absolute homogeneity. $d(s\\mathbf{x}) = |s|d(\\mathbf{x})$ for all $\\mathbf{x} \\in X$ and scalars $s$
+- Positive definite. If $d(\\mathbf{x}) = 0$ then $\\mathbf{x} = \\mathbf{0}$
 
 
 <!-- .slide: class="fragmented-lists" -->
 
 ## Provable properties of norms
 
-- $d(\mathbf{0}) = 0$ 
+- $d(\\mathbf{0}) = 0$ 
 - _Hint_ use absolute homogeneity
-- Non-negative. $d(\mathbf{x}) \geq 0$ for all $\mathbf{x} \in X$ 
-- _Hint_ consider $\mathbf{0} = \mathbf{x} - \mathbf{x}$
+- Non-negative. $d(\\mathbf{x}) \\geq 0$ for all $\\mathbf{x} \\in X$ 
+- _Hint_ consider $\\mathbf{0} = \\mathbf{x} - \\mathbf{x}$
 
 
 ![Manhattan. Image by <a href="https://pixabay.com/users/wikiimages-1897/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=67474">WikiImages</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=67474">Pixabay</a>](manhattan.jpg)
@@ -83,7 +83,7 @@ To get anywhere you have to travel some distance north/south and some distance e
 
 This gives rise to the Manhattan distance
 
-$$d_M((x_1, \ldots , x_n)) = \sum_i |x_i|$$
+$$d_M((x_1, \\ldots , x_n)) = \\sum_i |x_i|$$
 
 Is this a norm?
 
@@ -97,37 +97,37 @@ Is this a norm?
 
 ## p-norms
 
-Given $p \in \Bbb{R}^{+}$ we can define the _p-norm_ $\ell_p$ on $\Bbb{R}^n$ as
+Given $p \\in \\Bbb{R}^{+}$ we can define the _p-norm_ $\\ell_p$ on $\\Bbb{R}^n$ as
 
-$$\Vert \mathbf{x} \Vert_p = \sqrt[p]{\sum_i |x_i|^p}$$
+$$\\Vert \\mathbf{x} \\Vert_p = \\sqrt[p]{\\sum_i |x_i|^p}$$
 
-- $\ell_1$ is the Manhattan norm
-- $\ell_2$ is the Euclidean norm
+- $\\ell_1$ is the Manhattan norm
+- $\\ell_2$ is the Euclidean norm
 
 Different norms are often used in ML [regularisation](https://en.wikipedia.org/wiki/Regularization_(mathematics)) e.g. of [regression](https://en.wikipedia.org/wiki/Lasso_(statistics))
 
 ## p-norms to the limit
 
-What happens if $p \rightarrow \infty$ 
+What happens if $p \\rightarrow \\infty$ 
 
-Large terms dominate so $\ell_\infty$ is
+Large terms dominate so $\\ell_\\infty$ is
 
-$$\Vert \mathbf{x} \Vert_{\infty} = max(|x_1|,\ldots,|x_n|)$$
+$$\\Vert \\mathbf{x} \\Vert_{\\infty} = max(|x_1|,\\ldots,|x_n|)$$
 
 This is a norm (check properties)
 
 
-What happens if $p \rightarrow 0$?
+What happens if $p \\rightarrow 0$?
 
-$$\lim_{p\to 0} x^p = 1$$
+$$\\lim_{p\\to 0} x^p = 1$$
 
-$$\lim_{p\to 0} \Vert \mathbf{x} \Vert_p = \infty$$
+$$\\lim_{p\\to 0} \\Vert \\mathbf{x} \\Vert_p = \\infty$$
 
-But (assuming $0^0=0$), can define $\ell_0$ as
+But (assuming $0^0=0$), can define $\\ell_0$ as
 
-$$ \Vert (x_1,\ldots,x_n) \Vert_0= |x_0|^0 + \ldots + |x_n|^0 $$
+$$ \\Vert (x_1,\\ldots,x_n) \\Vert_0= |x_0|^0 + \\ldots + |x_n|^0 $$
 
-i.e. The number of locations in which $\mathbf{x} \neq 0$
+i.e. The number of locations in which $\\mathbf{x} \\neq 0$
 
 Commonly used (Hamming distance), but not a norm. Why not?
 
@@ -150,11 +150,11 @@ These occur in [nature and art](https://web.colby.edu/thegeometricviewpoint/2016
 
 ## Dot product
 
-Given vectors $\mathbf{a}, \mathbf{b}$ define
+Given vectors $\\mathbf{a}, \\mathbf{b}$ define
 
-$$\mathbf{a} \cdot \mathbf{b} = \Vert \mathbf{a} \Vert_2 \Vert \mathbf{b} \Vert_2 \cos \theta$$
+$$\\mathbf{a} \\cdot \\mathbf{b} = \\Vert \\mathbf{a} \\Vert_2 \\Vert \\mathbf{b} \\Vert_2 \\cos \\theta$$
 
-Where $\theta$ is the angle between $\mathbf{a}$ and $\mathbf{b}$
+Where $\\theta$ is the angle between $\\mathbf{a}$ and $\\mathbf{b}$
 
 Also referred to as inner product, scalar product
 
@@ -163,27 +163,27 @@ Also referred to as inner product, scalar product
 ## Properties of dot product
 
 - Finds projection of a vector in the direction of the other
-- $\hat{\mathbf{a}} \cdot \hat{\mathbf{b}} = \hat{\mathbf{b}} \cdot \hat{\mathbf{a}} = \cos \theta$
-- $(s \mathbf{a}) \cdot \\mathbf{b} = s(\mathbf{a} \cdot \mathbf{b})$
-- $(\mathbf{a_1} + \mathbf{a_2})\cdot \mathbf{b} = \mathbf{a_1} \cdot \mathbf{b} + \mathbf{a_2} \cdot \mathbf{b}$
-- $\mathbf{a} \cdot \mathbf{b} = 0$ if only if they are orthogonal or one is zero
+- $\\hat{\\mathbf{a}} \\cdot \\hat{\\mathbf{b}} = \\hat{\\mathbf{b}} \\cdot \\hat{\\mathbf{a}} = \\cos \\theta$
+- $(s \\mathbf{a}) \\cdot \\\\mathbf{b} = s(\\mathbf{a} \\cdot \\mathbf{b})$
+- $(\\mathbf{a_1} + \\mathbf{a_2})\\cdot \\mathbf{b} = \\mathbf{a_1} \\cdot \\mathbf{b} + \\mathbf{a_2} \\cdot \\mathbf{b}$
+- $\\mathbf{a} \\cdot \\mathbf{b} = 0$ if only if they are orthogonal or one is zero
 
-$$\mathbf{a} \cdot \mathbf{a} = \Vert \mathbf{a} \Vert_2^2$$
+$$\\mathbf{a} \\cdot \\mathbf{a} = \\Vert \\mathbf{a} \\Vert_2^2$$
 
 
 ## Calculating dot product
 
-If $\mathbf{a} = (a_1,\ldots,a_n)$ and $\mathbf{b} = (b_1,\ldots,b_n)$
+If $\\mathbf{a} = (a_1,\\ldots,a_n)$ and $\\mathbf{b} = (b_1,\\ldots,b_n)$
 
 Then 
 
-$$\mathbf{a} \cdot \mathbf{b} = \sum_{i=1}^n a_ib_i$$
+$$\\mathbf{a} \\cdot \\mathbf{b} = \\sum_{i=1}^n a_ib_i$$
 
 Proof: write each vector as linear combination of standard basis vectors
 
 ## Cosine rule
 
-Consider $\mathbf{a} = \mathbf{b} + \mathbf{c}$ and look at $\mathbf{c} \cdot \mathbf{c}$
+Consider $\\mathbf{a} = \\mathbf{b} + \\mathbf{c}$ and look at $\\mathbf{c} \\cdot \\mathbf{c}$
 
 
 <!-- .slide: class="fragmented-lists" -->
@@ -191,7 +191,7 @@ Consider $\mathbf{a} = \mathbf{b} + \mathbf{c}$ and look at $\mathbf{c} \cdot \m
 ## Orthonormality
 
 - Vectors are _orthogonal_ (at right angles) if their dot product is 0
-- Vectors are _normal_ if their $\ell_2$ norm is 1
+- Vectors are _normal_ if their $\\ell_2$ norm is 1
 - A set of vectors is _orthonormal_ if they are all orthogonal and normal
 - It is often useful to have an _orthonormal basis_ for a vector space
 
